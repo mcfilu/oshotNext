@@ -8,6 +8,8 @@ import Slider from 'react-slick';
 // import { useEffect } from 'react';
 // import { boobs1, boobs2, boobs3 } from '../assets';
 import '@fortawesome/fontawesome-free/css/all.min.css';
+import LiteYouTubeEmbed from "react-lite-youtube-embed"
+import "react-lite-youtube-embed/dist/LiteYouTubeEmbed.css"
 
 const YoutubeTestimonials = () => {
   
@@ -88,7 +90,11 @@ const YoutubeTestimonials = () => {
           <div className={`md:min-h-[50vh] p-6 px-[2vw] my-[5vh]`}>
             <div className={`flex flex-col w-full h-full items-center justify-center bg-black bg-opacity-80  p-[2vh] shadow-[0px_0px_20px_1px_#ad9444]`}>
               <div className={`flex h-[40%] w-[100%]`}>
-                <iframe className="w-[100%] h-[20vh] xl:h-[28vh]" src="https://www.youtube.com/embed/ivLasdoDESo"  title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                <LiteYouTubeEmbed
+                id="ivLasdoDESo"
+                title="O-Shot youtube testimonial"
+                />
+                {/* <iframe className="w-[100%] h-[20vh] xl:h-[28vh]" src="https://www.youtube.com/embed/ivLasdoDESo"  title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe> */}
               </div>
             
               <div className={`flex flex-col items-center w-[100%] h-[48%] mt-[2vh]`}>
@@ -105,7 +111,11 @@ const YoutubeTestimonials = () => {
           <div className={`md:min-h-[50vh] p-6 px-[2vw] my-[5vh]`}>
             <div className={`flex flex-col w-full h-full items-center justify-center bg-black bg-opacity-80  p-[2vh] shadow-[0px_0px_20px_1px_#ad9444]`}>
               <div className={`flex h-[40%] w-[100%]`}>
-                <iframe className="w-[100%] h-[20vh] xl:h-[28vh]" src="https://www.youtube.com/embed/690efqtUCOk" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+              <LiteYouTubeEmbed
+                id="690efqtUCOk"
+                title="O-Shot youtube testimonial"
+                />
+                {/* <iframe className="w-[100%] h-[20vh] xl:h-[28vh]" src="https://www.youtube.com/embed/690efqtUCOk" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe> */}
               </div>
             
               <div className={`flex flex-col items-center w-[100%] h-[48%] mt-[2vh]`}>
@@ -120,7 +130,11 @@ const YoutubeTestimonials = () => {
           <div className={`md:min-h-[50vh] p-6 px-[2vw] my-[5vh]`}>
             <div className={`flex flex-col w-full h-full items-center justify-center bg-black bg-opacity-80  p-[2vh] shadow-[0px_0px_20px_1px_#ad9444]`}>
               <div className={`flex h-[40%] w-[100%]`}>
-                <iframe className="w-[100%] h-[20vh] xl:h-[28vh]" src="https://www.youtube.com/embed/9CJmkxKmLDE" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+              <LiteYouTubeEmbed
+                id="9CJmkxKmLDE"
+                title="O-Shot youtube testimonial"
+                />
+                {/* <iframe className="w-[100%] h-[20vh] xl:h-[28vh]" src="https://www.youtube.com/embed/9CJmkxKmLDE" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe> */}
               </div>
             
               <div className={`flex flex-col items-center w-[100%] h-[48%] mt-[2vh]`}>
@@ -135,7 +149,11 @@ const YoutubeTestimonials = () => {
           <div className={`md:min-h-[50vh] p-6 px-[2vw] my-[5vh]`}>
             <div className={`flex flex-col w-full h-full items-center justify-center bg-black bg-opacity-80  p-[2vh] shadow-[0px_0px_20px_1px_#ad9444]`}>
               <div className={`flex h-[40%] w-[100%]`}>
-              <iframe className="w-[100%] h-[20vh] xl:h-[28vh]" src="https://www.youtube.com/embed/my6HYMq2x_U" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+              <LiteYouTubeEmbed
+                id="my6HYMq2x_U"
+                title="O-Shot youtube testimonial"
+                />
+              {/* <iframe className="w-[100%] h-[20vh] xl:h-[28vh]" src="https://www.youtube.com/embed/my6HYMq2x_U" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe> */}
               </div>
             
               <div className={`flex flex-col items-center w-[100%] h-[48%] mt-[2vh]`}>

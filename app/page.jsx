@@ -4,7 +4,7 @@ import Footer from './components/Footer'
 import BookNow from './components/BookNow'
 import Awards from './components/Awards'
 import Media from './components/Media'
-// import YoutubeTestimonials from './components/YoutubeTestimonials'
+import YoutubeTestimonials from './components/YoutubeTestimonials'
 import WakilSummary from './components/WakilSummary'
 import TrustPilotSlider from './components/TrustPilotSlider'
 import FooterBook from './components/FooterBook'
@@ -99,7 +99,7 @@ const Oshot = () => {
                   
               </div> */}
               <div className={`flex  w-full  justify-center items-center  mt-[7vh]`}>
-                {/* <YoutubeTestimonials/> */}
+                <YoutubeTestimonials/>
               </div>
               <div className={`flex  w-full  justify-center items-center `}>
                   <BookNow/>
