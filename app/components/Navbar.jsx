@@ -38,7 +38,7 @@
 
 //   return (
 //     <nav className = {`w-full flex py-[2.4vh] justify-between items-center fixed pl-[3vh] pr-[3vh] ${color ? 'bg-black bg-opacity-95 h-[11.3vh]' : ''} ease-in-out duration-500`}>
-//         <Link to={`/`}><img src="/logo_no_border.svg" alt="yours lawfully logo" className={`${color ? 'w-[16.3vh]' : 'w-[21.3vh]'} h-[10vh] ease-in-out duration-500`}></img></Link>
+//         <Link href="/"><img src="/logo_no_border.svg" alt="yours lawfully logo" className={`${color ? 'w-[16.3vh]' : 'w-[21.3vh]'} h-[10vh] ease-in-out duration-500`}></img></Link>
 
 //             <ul className="list-none md:flex hidden items-center justify-center flex-1">
 //             {Links.map((nav,index) => (
@@ -54,7 +54,7 @@
 
 //             {/* <img src={tel_logo}></img> */}
 //             <div className={`flex ${color ? 'w-[29.3vh]' : 'w-[30.8vh]'} md:flex hidden items-center justify-end ease-in-out duration-500`}>
-//             <Link to={`/`}><img src={oshot_logo} alt="yours lawfully logo" className={`${color ? 'w-[18.3vh]' : 'w-[23.3vh]'} ${color ? 'h-[8.5vh]' : 'h-[10vh]'} ease-in-out duration-500`}></img></Link>
+//             <Link href="/"><img src={oshot_logo} alt="yours lawfully logo" className={`${color ? 'w-[18.3vh]' : 'w-[23.3vh]'} ${color ? 'h-[8.5vh]' : 'h-[10vh]'} ease-in-out duration-500`}></img></Link>
 //             </div>
 
 
@@ -62,7 +62,7 @@
 //             <img src={toggle ? close : menu} alt="menu" className='w-[28px] h-[28px] object-contain' onClick={() => setToggle((prev) => !prev)}></img>
 //               <div className={`${toggle ? 'flex' : 'hidden'} flex-col p-6 bg-black absolute top-0 left-0 h-[100vh] w-[100vw]`}>
 //                 <div className={`flex flex-row justify-between items-center`}>
-//                   <Link to={`/`}><img src="/logo_no_border.svg" alt="yours lawfully logo" className={`${color ? 'w-[16.3vh]' : 'w-[21.3vh]'} ease-in-out duration-500`}></img></Link>
+//                   <Link href="/"><img src="/logo_no_border.svg" alt="yours lawfully logo" className={`${color ? 'w-[16.3vh]' : 'w-[21.3vh]'} ease-in-out duration-500`}></img></Link>
 //                   <img src={toggle ? close : menu} alt="menu" className='w-[28px] h-[28px] object-contain' onClick={() => setToggle((prev) => !prev)}></img>
 //                 </div>
 //                 <div className={`flex flex-col justify-center flex-1`}>
@@ -97,7 +97,7 @@
 import React from 'react';
 
 import { useState, useEffect } from 'react';
-import { navLinks, otherLinks } from '../constants/index.js';
+import { Links, otherLinks } from '../constants/index.js';
 import Link from 'next/link.js';
 // import img from 'next/img.js';
 import close from '../../public/close.svg';
@@ -152,7 +152,7 @@ const Navbar = () => {
         <Link href="/"><img src="/logo_no_border.svg" object-fit="cover" fill={true} alt="yours lawfully logo" className={`${color ? 'w-[16.3vh]' : 'w-[21.3vh]'} ease-in-out duration-500`}></img></Link>
 
             <ul className="list-none md:flex hidden items-center justify-center flex-1 ">
-            {navLinks && navLinks.map((nav,index) => (
+            {Links && Links.map((nav,index) => (
                 <li
                 key = {nav.id}
                 onMouseOver={() => nav.id === "other-tratments" ? setOthers(true) : null}
@@ -195,22 +195,22 @@ const Navbar = () => {
             <div  className="md:hidden flex flex-row justify-between items-center w-full">
             <Link href="/"><img src="/logo_no_border.svg" object-fit="cover" fill={true} alt="yours lawfully logo" 
    className={`${color ? 'w-[16.3vh]' : 'w-[21.3vh]'} ease-in-out duration-500`}></img></Link>
-            <img src={toggle ? close : menu} alt="menu" object-fit="cover" fill={true} className='w-[28px] h-[28px] object-contain' onClick={() => setToggle((prev) => !prev)}></img>
+            <img src={toggle ? close.src : menu.src} alt="menu" object-fit="cover" fill={true} className='w-[28px] h-[28px] object-contain' onClick={() => setToggle((prev) => !prev)}></img>
               <div className={`${toggle ? 'flex' : 'hidden'} flex-col p-6 bg-black absolute top-0 left-0 h-[100vh] w-[100vw]`}>
                 <div className={`flex flex-row justify-between items-center`}>
                   <Link href="/"><img src="/logo_no_border.svg" object-fit="cover" fill={true} alt="yours lawfully logo" className={`${color ? 'w-[16.3vh]' : 'w-[21.3vh]'} ease-in-out duration-500`}></img></Link>
-                  <img src={toggle ? close : menu} alt="menu" object-fit="cover" fill={true} className='w-[28px] h-[28px] object-contain' onClick={() => setToggle((prev) => !prev)}></img>
+                  <img src={toggle ? close.src : menu.src} alt="menu" object-fit="cover" fill={true} className='w-[28px] h-[28px] object-contain' onClick={() => setToggle((prev) => !prev)}></img>
                 </div>
                 <div className={`flex flex-col justify-center flex-1`}>
 
                 
                   <ul className="list-none flex flex-col justify-center items-center ">
-                    {navLinks && navLinks.map((nav,index) => (
+                    {Links && Links.map((nav,index) => (
                       <React.Fragment key={nav.id}>
                         <hr className={`border-gold1  w-[80%] mx-auto my-[1vh]`}></hr>
                       <li
                         key = {nav.id}
-                        className={`font-main font-normal cursor-pointer text-[3vh] ${index === navLinks.length - 1 ? 'mr-0' : ''} text-white`}   
+                        className={`font-main font-normal cursor-pointer text-[3vh] ${index === Links.length - 1 ? 'mr-0' : ''} text-white`}   
                       >
 
 

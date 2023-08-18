@@ -10,18 +10,30 @@ import Slider from 'react-slick';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import LiteYouTubeEmbed from "react-lite-youtube-embed"
 import "react-lite-youtube-embed/dist/LiteYouTubeEmbed.css"
+import { useEffect, useState } from 'react';
 
 const YoutubeTestimonials = () => {
+  const [sliderValue, setSliderValue] = useState(1);
   
 
-    // const changeSlider = () => {
-    //   if (window.screen.width > 1000){
-    //     return 3;
-    //   }
-    //   else{
-    //     return 1;
-    //   }
-    // };
+  useEffect(() => {
+    const changeSlider = () => {
+      if (window.screen.width > 1000) {
+        setSliderValue(3);
+      } else {
+        setSliderValue(1);
+      }
+    };
+
+    // Call the function initially and add an event listener for window resize
+    changeSlider();
+    window.addEventListener('resize', changeSlider);
+
+    // Clean up the event listener when the component unmounts
+    return () => {
+      window.removeEventListener('resize', changeSlider);
+    };
+  }, []);
       
 
     const settings = {
@@ -29,8 +41,8 @@ const YoutubeTestimonials = () => {
       dots: true,
       infinite: true,
       speed: 1500,
-      // slidesToShow: changeSlider(),
-      slidesToShow: 3,
+      slidesToShow: sliderValue,
+      // slidesToShow: 3,
       slidesToScroll: 1,
       centerMode: true,
       centerPadding: "0px",
@@ -41,51 +53,13 @@ const YoutubeTestimonials = () => {
     };
 
   return (
-    // <div className={`flex flex-col ml-[4%] mr-[4%] bg-black bg-opacity-70  p-6 `}>
-    //     <div>
-    //         <h1 className={`text-white text-[6vh] font-poppins text-center`}>Clients Testimonials</h1>
-    //         <hr className={`mt-[2vh] mb-8`}></hr>
-    //     </div>
-    //     <div className={`flex flex-row justify-center gap-x-16`}>
-    //         <iframe width="560" height="315" src="https://www.youtube.com/embed/Fph7J8NK4so?controls=0" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
-    //         <iframe width="560" height="315" src="https://www.youtube.com/embed/TmsESS0zn74?controls=0" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
-    //     </div>
-    //     <div className={`flex flex-row justify-between mt-16 `}>
-    //         <iframe width="560" height="315" src="https://www.youtube.com/embed/M0GiG9xyxJo?controls=0" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
-    //         <iframe width="560" height="315" src="https://www.youtube.com/embed/TEvhvhzyCsY?controls=0" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
-    //     </div>
-    // </div>
+  
     <div className={`flex flex-col p-[2vh]  w-full `}>
       
         <h1 className={`text-gold1 text-[5vh] font-header text-center`}>Patients Testimonials</h1>
-        {/* <hr className={`mt-[2vh] mb-8`}></hr> */}
-      
-    {/* <div className={`flex flex-col sm:flex-row justify-center gap-x-4 sm:gap-x-16`}>
-      <iframe className="w-full sm:w-auto" width="560" height="315" src="https://www.youtube.com/embed/Fph7J8NK4so?controls=0" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
-      <iframe className="w-full sm:w-auto mt-[2vh] sm:mt-0" width="560" height="315" src="https://www.youtube.com/embed/TmsESS0zn74?controls=0" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
-    </div>
-    <div className={`flex flex-col sm:flex-row justify-center sm:justify-between mt-16 gap-x-4 sm:gap-x-0`}>
-      <iframe className="w-full sm:w-auto" width="560" height="315" src="https://www.youtube.com/embed/M0GiG9xyxJo?controls=0" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
-      <iframe className="w-full sm:w-auto mt-[2vh] sm:mt-0" width="560" height="315" src="https://www.youtube.com/embed/TEvhvhzyCsY?controls=0" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
-    </div> */}
+        
       <div className=" w-[95%] mx-auto my-auto ">
-        {/* <Slider {...settings}>
-          <div >
-            <div className="w-[20vw] h-[15vh] bg-black bg-opacity-30 flex items-center justify-center mx-[1vh]">
-              <iframe className="w-[10vw] h-[10vh]"  src="https://www.youtube.com/embed/Fph7J8NK4so?controls=0" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
-            </div>
-          </div>
-          <div className="h-64   mx-[1vh]">
-            <iframe className="w-full h-full " width="560" height="315" src="https://www.youtube.com/embed/Fph7J8NK4so?controls=0" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
-          </div>
-          <div className="h-64  mx-[1vh]">
-            <iframe className="w-full sm:w-auto" width="560" height="315" src="https://www.youtube.com/embed/Fph7J8NK4so?controls=0" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
-          </div>
-          <div className="h-64  mx-[1vh]">
-            <iframe className="w-full sm:w-auto" width="560" height="315" src="https://www.youtube.com/embed/Fph7J8NK4so?controls=0" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
-          </div>
-          Add as many slides as you want
-        </Slider> */}
+        
         <Slider {...settings}>
           <div className={`md:min-h-[50vh] p-6 px-[2vw] my-[5vh]`}>
             <div className={`flex flex-col w-full h-full items-center justify-center bg-black bg-opacity-80  p-[2vh] shadow-[0px_0px_20px_1px_#ad9444]`}>

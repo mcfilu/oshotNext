@@ -38,7 +38,9 @@ const ContactTreatment = () => {
 
         <div className={`md:hidden flex flex-col items-center `}>
             <p className={`flex text-gold text-[6vh] text-center text-gold1 font-header`}>Treatment</p>
-            <Image className={`w-full h-full object-cover `} object-fit="cover" fill={true} src={clinic_room}></Image>
+            <div className={`flex w-full h-[30vh] relative`}>
+            <Image  object-fit="cover" fill={true} src={clinic_room}></Image>
+            </div>
             <div className={`flex flex-col w-[100%] items-center justify-center my-auto p-[1vh]`}>
             
                 

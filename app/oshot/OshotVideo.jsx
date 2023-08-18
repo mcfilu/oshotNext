@@ -28,11 +28,11 @@ const OshotVideo = () => {
                   title="o-concept-video"
                 /> */}
                 <LiteYouTubeEmbed
-                className={`w-full h-full`}
-                wrapperClass=""
-  id="WsHXew0UZUQ"
-  title="o-concept-video"
-/>
+                  className={`w-full h-full`}
+                  wrapperClass=""
+                  id="WsHXew0UZUQ"
+                  title="o-concept-video"
+                />
                   {/* <iframe width="90%" height="100%" src="https://www.youtube.com/embed/EbBj4Hitfyo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
                   {/* <iframe className={`w-[100%] h-full`} src="https://www.youtube.com/embed/WsHXew0UZUQ" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe> */}
               </div>
@@ -49,6 +49,12 @@ const OshotVideo = () => {
                   id="{WsHXew0UZUQ}"
                   title="{o-concept-video}"
                 /> */}
+          <LiteYouTubeEmbed
+                  className={`w-full h-full`}
+                  wrapperClass=""
+                  id="WsHXew0UZUQ"
+                  title="o-concept-video"
+                />
           <p className={`text-white text-left text-[2.2vh] mt-[3vh] pl-[1vh] font-main`}>We warmly invite you to watch a detailed video where Dr. Sherif Wakil, a highly respected expert in the field, carefully explains every part of the treatment process. In this video, Dr. Wakil breaks down the procedure into simple steps, using easy-to-understand language that makes the complex treatment procedure more accessible to everyone. This is an excellent opportunity to learn more about the procedure from an acknowledged authority in the field.</p>
           <Link href="/book-now"><button className={` text-[3vh] px-[2vh] py-[0.5vh] bg-black border-gold1 border-2 text-gold1 hover:bg-white mt-[5vh] md:mt-[0px] font-main`}>Book Consultation</button></Link>
         </div>

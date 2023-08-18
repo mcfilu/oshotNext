@@ -48,7 +48,10 @@ const WakilDetails = () => {
         <div className={`md:hidden flex flex-col w-full `}>
             <p className={`flex text-gold text-[5vh] text-center text-gold1 font-header`}>World Renown Specialist</p>
             {/* <video ref={videoRef} src={augmentation_vid} autoPlay loop muted playsInline className={`w-[100%]`}></video> */}
-            <Image src={sherif_standing} object-fit="cover" fill={true} className={`w-full h-full object-cover`}></Image>
+            {/* <Image src={sherif_standing} object-fit="cover" fill={true} className={`w-full h-full object-cover`}></Image> */}
+            <div className={`flex w-full h-[50vh] relative`}>
+            <Image  object-fit="contain" fill={true} src={sherif_standing}></Image>
+            </div>
             <div className={`flex flex-col w-[100%] items-center justify-center my-auto p-[1vh]`}>
             
                 

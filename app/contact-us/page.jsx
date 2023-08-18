@@ -21,7 +21,7 @@ export default function Contact() {
     <div className={`bg-primary w-full`}>
         
 
-        <div className={`fixed z-10 `}>
+        <div className={`fixed z-30 `}>
             <Navbar/>
         </div>
         <div className={`fixed w-full bottom-0 left-0 z-20 `}>

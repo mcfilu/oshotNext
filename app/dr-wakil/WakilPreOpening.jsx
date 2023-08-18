@@ -28,7 +28,10 @@ const WakilPreOpening = () => {
 
         <div className={`md:hidden flex flex-col w-full items-center`}>
         <p className={`flex text-[4.5vh] text-gold1 mt-[2vh] font-header text-center`}>Dr. SW Clinics</p>
-            <Image className={`w-full h-full object-cover `} src={sherif_comp} href="Dr Sherif Wakil opening image in his office in London" object-fit="cover" fill={true}></Image>
+            {/* <Image className={`w-full h-full object-cover `} src={sherif_comp} href="Dr Sherif Wakil opening image in his office in London" object-fit="cover" fill={true}></Image> */}
+            <div className={`flex w-full h-[30vh] relative`}>
+                <Image  object-fit="cover" fill={true} src={sherif_comp}></Image>
+            </div>
             
             {/* <i className={`fa-solid fa-quote-right mr-[0.9vw] text-gold1 text-left text-[4vh] mt-[1vh]`}></i> */}
             <p className={`flex text-white text-[2.2vh] text-left ml-[1vh] text-gold1 mt-[2vh] font-main`}>The prestigious Dr SW Clinic, located in London, Dubai and Egypt, was founded through the vision of celebrity doctor, Aesthetic Awards and MyFaceMyBody Awards finalist Dr Sherif Wakil.</p>

@@ -1,9 +1,5 @@
 import React from 'react'
-// import { PopupButton } from "react-calendly";
-// import { blood_cells } from '../assets';
-// import blood_cells from '../../public/blood_cells.mp4';
 import '@fortawesome/fontawesome-free/css/all.min.css';
-// import { Link } from 'react-router-dom';
 import Link from 'next/link';
 
 const OshotDetails = () => {
