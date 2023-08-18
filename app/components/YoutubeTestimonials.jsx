@@ -5,19 +5,21 @@ import React from 'react'
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import Slider from 'react-slick';
+// import { useEffect } from 'react';
 // import { boobs1, boobs2, boobs3 } from '../assets';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
 const YoutubeTestimonials = () => {
   
-    const changeSlider = () => {
-      if (window.screen.width > 1000){
-        return 3;
-      }
-      else{
-        return 1;
-      }
-    };
+
+    // const changeSlider = () => {
+    //   if (window.screen.width > 1000){
+    //     return 3;
+    //   }
+    //   else{
+    //     return 1;
+    //   }
+    // };
       
 
     const settings = {
@@ -25,7 +27,8 @@ const YoutubeTestimonials = () => {
       dots: true,
       infinite: true,
       speed: 1500,
-      slidesToShow: changeSlider(),
+      // slidesToShow: changeSlider(),
+      slidesToShow: 3,
       slidesToScroll: 1,
       centerMode: true,
       centerPadding: "0px",
