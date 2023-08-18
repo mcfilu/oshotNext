@@ -4,7 +4,7 @@ import Footer from './components/Footer'
 import BookNow from './components/BookNow'
 import Awards from './components/Awards'
 import Media from './components/Media'
-import YoutubeTestimonials from './components/YoutubeTestimonials'
+// import YoutubeTestimonials from './components/YoutubeTestimonials'
 import WakilSummary from './components/WakilSummary'
 import TrustPilotSlider from './components/TrustPilotSlider'
 import FooterBook from './components/FooterBook'
@@ -20,7 +20,7 @@ import OshotOpening from './oshot/OshotOpening'
 import OshotServices from './oshot/OshotServices'
 import OshotSummary from './oshot/OshotSummary'
 import OshotTreated from './oshot/OshotTreated'
-import OshotVideo from './oshot/OshotVideo'
+// import OshotVideo from './oshot/OshotVideo'
 
 // import { Oshot_vid } from '../assets'
 
@@ -70,7 +70,7 @@ const Oshot = () => {
               </div>
               
               <div className={`flex  w-full  items-center  justify-center mt-[7vh]`}>
-                  <OshotVideo/>
+                  {/* <OshotVideo/> */}
               </div>
               
               <div className={`flex  w-full items-center mt-[7vh]`}>
@@ -99,7 +99,7 @@ const Oshot = () => {
                   
               </div> */}
               <div className={`flex  w-full  justify-center items-center  mt-[7vh]`}>
-                <YoutubeTestimonials/>
+                {/* <YoutubeTestimonials/> */}
               </div>
               <div className={`flex  w-full  justify-center items-center `}>
                   <BookNow/>
