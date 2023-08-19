@@ -38,7 +38,7 @@ const OshotOpening = () => {
 
         <div className={`md:hidden flex flex-col w-full items-center`}>
         <p className={`flex text-[4.5vh] font-header text-gold1 mt-[2vh]`}>Dr. Sherif Wakil</p>
-        <div className={`flex w-full h-[30vh] relative`}>
+            <div className={`flex w-full h-[30vh] relative`}>
                 <Image  object-fit="cover" fill={true} src={sherif_new} alt=""></Image>
             </div>
             {/* <Image className={`w-full h-full object-cover `} src={sherif_new} object-fit="cover" fill={true} href=""></Image> */}

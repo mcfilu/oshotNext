@@ -14,8 +14,10 @@ import OconceptOpening from './OconceptOpening'
 import OconceptVideo from './OconceptVideo'
 import OconceptDetails from './OconceptDetails'
 
-
-
+export const metadata = {
+  title: 'O Concept Treatment in London | O-Shot',
+  description : "Discover the ultimate O Concept Treatment in London with Dr. Sherif Wakil. Experience the best care. Call us now at +44 (0)20 3006 8459 for appointments.",
+}
 
 const Oconcept = () => {
   return (

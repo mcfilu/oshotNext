@@ -20,6 +20,10 @@ import ChairSummary from './ChairSummary'
 import ChairTreated from './ChairTreated'
 import ChairVideo from './ChairVideo'
 
+export const metadata = {
+    title: 'O Concept Chair in London | O-Shot',
+    description : "Experience the ultimate O Concept Chair in London with Dr. Sherif Wakil's exceptional treatment. Call us today at +44 (0)20 3006 8459 for an appointment.",
+}
 
 const Chair = () => {
     // const [videoEnded, setVideoEnded] = useState(false);

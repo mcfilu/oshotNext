@@ -11,7 +11,7 @@ const OshotBenefits
     <div className={`flex w-full flex-row  md:min-h-[55vh]   `}>
         <div className={`hidden md:flex w-[45%]  flex  relative`}>
             {/* <video src={breastliftvideo} autoPlay loop muted className={` object-cover h-[100%] w-[100%]`}></video> */}
-            <Image src={oshot_image5} className={`w-full h-full object-cover`} object-fit="cover" fill={true} href=""></Image>
+            <Image src={oshot_image5} className={`w-full h-full object-cover`} object-fit="cover" fill={true} alt=""></Image>
         </div>
         <div className={`hidden md:flex flex flex-col w-[55%] p-[2vh]  items-center`}>
             <h1 className={`text-gold1 text-[5vh] text-center font-header`}>O-Shot Benefits</h1>

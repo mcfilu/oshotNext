@@ -21,6 +21,10 @@ import LabiaSummary from './LabiaSummary'
 import LabiaTreated from './LabiaTreated'
 import LabiaVideo from './LabiaVideo'
 
+export const metadata = {
+    title: 'Discover Labia Fillers in London | O-Shot',
+    description : "Enhance your confidence with top-notch labia fillers in London by Dr. Sherif Wakil. Call us today at +44 (0)20 3006 8459 for the best results and care.",
+}
 
 const Labia = () => {
     // const [videoEnded, setVideoEnded] = useState(false);

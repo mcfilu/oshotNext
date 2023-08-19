@@ -12,16 +12,11 @@ import WakilOpening from './WakilOpening'
 import WakilClinic from './WakilClinic'
 import WakilImage from './WakilImage'
 import WakilPreOpening from './WakilPreOpening'
-// import Alberto from '../components/Alberto'
-// import Davood from '../components/Davood'
 
-
-
-
-
-
-
-
+export const metadata = {
+    title: 'Dr. Sherif Wakil | Sexual Aesthetics Doctor in UK',
+    description : 'Experience the best O-Shot and O Concept Treatment in London with Dr. Sherif Wakil. Call +44 (0)20 3006 8459 to book your appointment and revitalize your skin.',
+}
 
 const DrWakil = () => {
   return (

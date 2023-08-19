@@ -15,6 +15,10 @@ import ContactBooking from './ContactBooking'
 import ContactPersonalised from './ContactPersonalised'
 import ContactOpening from './ContactOpening'
 
+export const metadata = {
+    title: 'Contact O-Shot | O Concept Treatment in London',
+    description : 'Experience the best O Shot treatment in London with Dr. Sherif Wakil. Regain confidence and pleasure. Call +44 (0)20 3006 8459 to book your appointment.',
+}
 
 export default function Contact() {
   return (

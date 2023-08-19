@@ -21,6 +21,10 @@ import ThermiSummary from './ThermiSummary'
 import ThermiTreated from './ThermiTreated'
 import ThermiVideo from './ThermiVideo'
 
+export const metadata = {
+    title: 'Thermiva Feminine Wellness in London | O-Shot',
+    description : "Experience the best O concept treatment for feminine wellness in London with Dr. Sherif Wakil's Thermiva. Call +44 (0)20 3006 8459 for appointments.",
+  }
 
 const Thermi = () => {
     // const [videoEnded, setVideoEnded] = useState(false);

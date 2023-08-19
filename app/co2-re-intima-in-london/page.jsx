@@ -20,7 +20,10 @@ import CoSummary from './CoSummary'
 import CoTreated from './CoTreated'
 import CoVideo from './CoVideo'
 
-
+export const metadata = {
+    title: 'CO2RE Intima Vaginal Rejuvenation in London | O-Shot',
+    description : 'Experience vaginal rejuvenation in London with CO2RE Intima by Dr. Sherif Wakil. Discover the best O Concept treatment. Call +44 (0)20 3006 8459.',
+}
 
 
 const Co = () => {

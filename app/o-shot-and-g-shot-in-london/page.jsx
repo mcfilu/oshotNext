@@ -21,6 +21,10 @@ import OGSummary from './OGSummary'
 import OGTreated from './OGTreated'
 import OGVideo from './OGVideo'
 
+export const metadata = {
+    title: 'O Shot and G Shot Treatment in London | O-Shot',
+    description : "Experience the best O-Shot and G-Shot treatments in London with Dr. Sherif Wakil. Rediscover intimacy and confidence. Call +44 (0)20 3006 8459 now.",
+  }
 
 const Og = () => {
     // const [videoEnded, setVideoEnded] = useState(false);

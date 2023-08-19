@@ -1,5 +1,4 @@
 import React from 'react'
-// import {  oshot_image1 } from '../assets'
 import oshot_image1 from '../../public/oshot1.jpeg';
 import Image from 'next/image';
 
