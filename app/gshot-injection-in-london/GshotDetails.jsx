@@ -40,7 +40,7 @@ const OshotDetails = () => {
 
         <div className={`flex flex-col md:hidden items-center`}>
             <p className={`flex text-gold1 text-[6vh] text-center font-header`}>How does it work?</p>
-            <video src="/blood_cells.mp4" autoPlay loop muted className={` object-cover h-[100%]`}></video>
+            <video src="/blood_cells.mp4" autoPlay loop muted playsInline className={` object-cover h-[100%]`}></video>
                 <p className={`flex text-white text-[2.2vh] mt-[5vh] ml-[1vh] font-main`}>G-Spot Amplification, also known as the G-Shot, offers a unique approach to enhancing sexual pleasure and gratification for women. By using dermal filler products, typically used for facial contouring and other treatments, the G-Spot can be amplified and made more prominent, resulting in increased sensitivity to stimulation.</p>
                 <p className={`flex text-white text-[2.2vh] mt-[1.5vh] ml-[1vh] font-main`}>While debates exist in society and scientific literature regarding the impact of the G-Spot, many women find it elusive and challenging to locate. By bringing the G-Spot to prominence through amplification, a whole new level of sexual pleasure can be unlocked.</p>
                 <p className={`flex text-white text-[2.2vh] mt-[1.5vh] ml-[1vh] font-main`}>During the G-Spot amplification procedure, hyaluronic acid-based dermal fillers are injected into the anterior wall of the vagina, precisely targeting the location of the G-Spot. The thick, natural hyaluronic acid gel enhances both the size and thickness of the G-Spot, projecting it lower into the vaginal canal. This makes it easier to stimulate during penetrative sex and other sexual activities.</p>

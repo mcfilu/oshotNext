@@ -40,7 +40,7 @@ const OshotDetails = () => {
 
         <div className={`flex flex-col md:hidden items-center`}>
             <p className={`flex text-gold1 text-[6vh] text-center font-header`}>How does it work?</p>
-            <video src="/blood_cells.mp4" autoPlay loop muted className={` object-cover h-[100%]`}></video>
+            <video src="/blood_cells.mp4" autoPlay loop muted playsInline className={` object-cover h-[100%]`}></video>
                 <p className={`flex text-white text-[2.2vh] mt-[5vh] ml-[1vh] font-main`}>The CO2RE Intima laser treatment is a cutting-edge procedure that stimulates collagen synthesis and remodels vaginal connective tissue fibers, all while preserving the surrounding tissues, resulting in improved symptoms. Moreover, it enhances vaginal muscle tone, strength, and control, providing a boost to self-confidence and comfort.</p>
                 <p className={`flex text-white text-[2.2vh] mt-[1.5vh] ml-[1vh] font-main`}>CO2RE Intima employs an intra-vaginal device that delivers gentle pulses of photo-thermal energy to the vaginal walls, stimulating the production of new collagen and tightening the vaginal canal and supporting muscles.</p>
                 <p className={`flex text-white text-[2.2vh] mt-[1.5vh] ml-[1vh] font-main`}>This treatment stands out as one of the quickest and most convenient options for vaginal rejuvenation, often requiring just a 5-minute outpatient session with minimal recovery time. To achieve optimal results, patients are advised to undergo an additional series of three Intima treatments at four-week intervals. Additionally, a touch-up treatment session may be recommended within 12 months to maintain the initial results.</p>
