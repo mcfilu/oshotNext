@@ -16,6 +16,9 @@ export const metadata = {
     default: 'O-Shot Vagina PRP Rejuvanation in London by Dr Sherif Wakil',
     template: '%s',
   },
+  verification: {
+    google: 'Ivp2xNJfql--maVFiajqYG7B6tfV-Su9h0lKu8saXnc',
+  }
 }
 
 export default function RootLayout({ children }) {
