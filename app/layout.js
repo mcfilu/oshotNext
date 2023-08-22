@@ -1,8 +1,9 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
-import GoogleAnalytics from './GoogleAnalytics'
+import GoogleAnalytics from './GoogleAnalytics';
 import GoogleTagManager from '@magicul/next-google-tag-manager';
-import Script from 'next/script'
+import Script from 'next/script';
+
 
 const inter = Inter({ subsets: ['latin'] })
 
