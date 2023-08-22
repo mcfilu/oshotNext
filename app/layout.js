@@ -1,6 +1,6 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
-import GoogleAnalytics from './GoogleAnalytics';
+import GoogleAnalytics from './components/GoogleAnalytics';
 import GoogleTagManager from '@magicul/next-google-tag-manager';
 import Script from 'next/script';
 
