@@ -24,7 +24,10 @@ import OshotVideo from './oshot/OshotVideo'
 
 // import { Oshot_vid } from '../assets'
 
-
+export const metadata = {
+    title: 'Revitalize and Rejuvenate with the O-Shot in London | O-Shot',
+    description : 'Revitalize your intimate life with O-Shot in London. Dr. Sherif Wakil offers top-notch O Concept treatment. Call +44 (0)20 3006 8459 for a consultation.',
+}
 
 const Oshot = () => {
     // const [videoEnded, setVideoEnded] = useState(false);
