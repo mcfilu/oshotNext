@@ -3,6 +3,7 @@ import { Inter } from 'next/font/google'
 import GoogleAnalytics from './components/GoogleAnalytics';
 import GoogleTagManager from '@magicul/next-google-tag-manager';
 import Script from 'next/script';
+import { Suspense } from 'react';
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -27,8 +28,12 @@ export default function RootLayout({ children }) {
       
       
       <body className={inter.className}>
-        <GoogleAnalytics/>
-        <GoogleTagManager id="GTM-KFZWGS2" />
+        <Suspense>
+          <GoogleAnalytics/>
+        </Suspense>
+        <Suspense>
+          <GoogleTagManager id="GTM-KFZWGS2" />
+        </Suspense>
         {children}
         <Script strategy="afterInteractive" data-bot-id="a243d8ad-44a1-4441-aecd-b9b2a08ff886" src="https://launcher.enquirybot.com/index.js"></Script>
         {/* <script type="text/javascript" src="" data-bot-id="a243d8ad-44a1-4441-aecd-b9b2a08ff886"></script> */}
