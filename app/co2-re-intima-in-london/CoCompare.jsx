@@ -1,4 +1,5 @@
 import React, {useState} from 'react'
+import Image from 'next/image';
 import { ReactCompareSlider, ReactCompareSliderImage } from 'react-compare-slider';
 import { pshot1before, pshot1after } from '../assets';
 
@@ -65,17 +66,25 @@ const OshotCompare
             <div onMouseEnter={() => setHov1(true)} onMouseLeave={() => {setHov1(false)}} className={`flex flex-row justify-between w-full h-[40vh] my-[1vh]`}>
                 <div className={`flex w-full h-full justify-between ${hov1 ? '' : 'hidden'} ease-in-out duration-500`}>
                     <div className={`flex w-full md:w-[50%] mx-auto h-full justify-center`}>
-                        <ReactCompareSlider
-                            itemOne={<ReactCompareSliderImage src="sjfksldfj" srcSet={pshot1before} alt="Image one"/>}
-                            itemTwo={<ReactCompareSliderImage src={pshot1after} srcSet={pshot1after} alt="Image two" />}
+                    <ReactCompareSlider
+                            itemOne={<div className={`flex w-[80vw] md:w-[20vw] h-[25vh] relative`}>
+                                        <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={pshot1before}></Image>
+                                    </div>}
+                            itemTwo={<div className={`flex w-[80vw] md:w-[20vw] h-[25vh] relative`}>
+                                        <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={pshot1after}></Image>
+                                    </div>}  
                         />
                     </div>
                     
                 </div>
                 <div className={`flex w-full h-full justify-between md:justify-center ${hov1 ? 'hidden' : ''} ease-in-out duration-500`}>
-                    <img className={`md:mr-[3vh] w-[47%] md:w-[43%] object-cover`} src={pshot1before}></img>
+                <div className={`mr-[1vh] md:mr-[3vh] w-[48%] md:w-[43%] object-cover relative`}>
+                        <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={pshot1before}></Image>
+                    </div>
                     <div className={`h-full w-[0.2vh] bg-gold1`}></div>
-                    <img className={`md:ml-[3vh] w-[47%] md:w-[43%] object-cover`} src={pshot1after}></img>
+                    <div className={`ml-[1vh] md:ml-[3vh] w-[48%] md:w-[43%] object-cover relative`}>
+                        <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={pshot1after}></Image>
+                    </div>
                 </div>
             </div>
 

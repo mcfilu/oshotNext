@@ -34,13 +34,15 @@ const OshotDetails = () => {
                 /></p> */}
         </div>
         <div className={`hidden md:flex w-[45%] h-[100%] flex items-center`}>
-            <video src="/blood_cells.mp4" autoPlay loop muted className={` object-cover w-[100%] h-[100%]`}></video>
+            <video src="/blood_cells_desktop.mp4" autoPlay loop muted className={` object-cover w-[100%] h-[100%]`}></video>
             {/* <img className={`w-full h-full object-cover`} src={sherif}></img> */}
         </div>
 
         <div className={`flex flex-col md:hidden items-center`}>
             <p className={`flex text-gold1 text-[6vh] text-center font-header`}>How does it work?</p>
-            <video src="/blood_cells.mp4" autoPlay loop muted playsInline className={` object-cover h-[100%]`}></video>
+            <div className={`flex w-full h-[35vh]`}>
+                <video src="/blood_cells_mobile.mp4" autoPlay loop muted playsInline className={` object-cover h-full w-full`}></video>
+            </div>
                 <p className={`flex text-white text-[2.2vh] mt-[5vh] ml-[1vh] font-main`}>Labia majora augmentation, aimed at enhancing the outer labia of the vagina, offers numerous benefits to women at various life stages. This procedure employs hyaluronic acid-based dermal fillers that are free from animal-derived substances.</p>
                 <p className={`flex text-white text-[2.2vh] mt-[1.5vh] ml-[1vh] font-main`}>We utilize specialized products such as Desirial, Neauvia Rose, and Regenyal Armonia fillers, which are formulated specifically for the female intimate area, providing long-lasting and stable results for labia majora augmentation.</p>
                 <p className={`flex text-white text-[2.2vh] mt-[1.5vh] ml-[1vh] font-main`}>Desirial is a filler containing both mannitol and hyaluronic acid (19mg/ml or 21mg/ml in Desirial Plus). Mannitol serves as an ideal excipient for hyaluronic acid (HA) fillers due to its hydrating and antioxidant properties. Additionally, it helps reduce the post-injection effects like redness and swelling, while also extending the longevity of hyaluronic acid in the tissue.</p>

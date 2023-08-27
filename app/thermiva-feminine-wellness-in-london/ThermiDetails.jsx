@@ -34,13 +34,15 @@ const OshotDetails = () => {
                 /></p> */}
         </div>
         <div className={`hidden md:flex w-[45%] h-[100%] flex items-center`}>
-            <video src="/blood_cells.mp4" autoPlay loop muted className={` object-cover w-[100%] h-[100%]`}></video>    
+        <video src="/blood_cells_desktop.mp4" autoPlay loop muted className={` object-cover w-[100%] h-[100%]`}></video>   
             {/* <img className={`w-full h-full object-cover`} src={sherif}></img> */}
         </div>
 
         <div className={`flex flex-col md:hidden items-center`}>
             <p className={`flex text-gold1 text-[6vh] text-center font-header`}>How does it work?</p>
-            <video src="/blood_cells.mp4" autoPlay loop muted playsInline className={` object-cover h-[100%]`}></video>
+            <div className={`flex w-full h-[35vh]`}>
+                <video src="/blood_cells_mobile.mp4" autoPlay loop muted playsInline className={` object-cover h-full w-full`}></video>
+            </div>
                 <p className={`flex text-white text-[2.2vh] mt-[5vh] ml-[1vh] font-main`}>ThermiVa offers a versatile and non-invasive treatment approach that goes beyond addressing internal vaginal concerns. This innovative procedure can also improve the external appearance of enlarged or unsightly labia, eliminating the need for invasive surgery.</p>
                 <p className={`flex text-white text-[2.2vh] mt-[1.5vh] ml-[1vh] font-main`}>Using radiofrequency (RF) energy, ThermiVa effectively tightens the vaginal opening and the entire length of the vagina, enhancing sexual satisfaction for both patients and their partners. Additionally, it addresses vulvar or labial laxity, resulting in tightened labial tissues and reduced sag or a 'camel toe' appearance, providing noticeably softer and smoother skin. This, in turn, brings more comfort in tight clothing and boosts confidence in leotards and bikinis.</p>
                 <p className={`flex text-white text-[2.2vh] mt-[1.5vh] ml-[1vh] font-main`}>Moreover, ThermiVa effectively targets vaginal dryness (atrophic vaginitis), promoting softer and thicker skin in the area and increasing both internal and external moisture. The treatment significantly enhances daily comfort and sexual intercourse without the need for hormones.</p>

@@ -1,5 +1,6 @@
 'use client'
 import React, {useState} from 'react'
+import Image from 'next/image';
 import { ReactCompareSlider, ReactCompareSliderImage } from 'react-compare-slider';
 // import { oshot_before1, oshot_after1, oshot_before2, oshot_after2, oshot_before3, oshot_after3, oshot_before4, oshot_after4, oshot_before5, oshot_after5, oshot_before6, oshot_after6, oshot_before7, oshot_after7 } from '../assets';
 import oshot_before1 from '../../public/oshot_before1.jpeg';
@@ -81,113 +82,169 @@ const OshotCompare
             <div onMouseEnter={() => setHov1(true)} onMouseLeave={() => {setHov1(false)}} className={`flex flex-row justify-between w-full h-[40vh] my-[1vh]`}>
                 <div className={`flex w-full h-full justify-between ${hov1 ? '' : 'hidden'} ease-in-out duration-500`}>
                     <div className={`flex w-full md:w-[50%] mx-auto h-full justify-center`}>
-                        <ReactCompareSlider
-                            itemOne={<ReactCompareSliderImage src="sjfksldfj" srcSet={oshot_before1.src} alt="Image one"/>}
-                            itemTwo={<ReactCompareSliderImage src={oshot_after1.src} srcSet={oshot_after1.src} alt="Image two" />}
+                    <ReactCompareSlider
+                            itemOne={<div className={`flex w-[80vw] md:w-[20vw] h-[25vh] relative`}>
+                                        <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={oshot_before1}></Image>
+                                    </div>}
+                            itemTwo={<div className={`flex w-[80vw] md:w-[20vw] h-[25vh] relative`}>
+                                        <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={oshot_after1}></Image>
+                                    </div>}  
                         />
                     </div>
                     
                 </div>
                 <div className={`flex w-full h-full justify-between md:justify-center ${hov1 ? 'hidden' : ''} ease-in-out duration-500`}>
-                    <img className={`md:mr-[3vh] w-[47%] md:w-[43%] object-cover`} src={oshot_before1.src}></img>
+                <div className={`mr-[1vh] md:mr-[3vh] w-[48%] md:w-[43%] object-cover relative`}>
+                        <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={oshot_before1}></Image>
+                    </div>
                     <div className={`h-full w-[0.2vh] bg-gold1`}></div>
-                    <img className={`md:ml-[3vh] w-[47%] md:w-[43%] object-cover`} src={oshot_after1.src}></img>
+                    <div className={`ml-[1vh] md:ml-[3vh] w-[48%] md:w-[43%] object-cover relative`}>
+                        <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={oshot_after1}></Image>
+                    </div>
                 </div>
             </div>
             <div onMouseEnter={() => setHov2(true)} onMouseLeave={() => {setHov2(false)}} className={`flex flex-row justify-between w-full h-[40vh] my-[1vh]`}>
                 <div className={`flex w-full h-full justify-between ${hov2 ? '' : 'hidden'} ease-in-out duration-500`}>
                     <div className={`flex w-full md:w-[50%] mx-auto h-full justify-center`}>
-                        <ReactCompareSlider
-                            itemOne={<ReactCompareSliderImage src="sjfksldfj" srcSet={oshot_before2.src} alt="Image one"/>}
-                            itemTwo={<ReactCompareSliderImage src={oshot_after2.src} srcSet={oshot_after2.src} alt="Image two" />}
+                    <ReactCompareSlider
+                            itemOne={<div className={`flex w-[80vw] md:w-[20vw] h-[25vh] relative`}>
+                                        <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={oshot_before2}></Image>
+                                    </div>}
+                            itemTwo={<div className={`flex w-[80vw] md:w-[20vw] h-[25vh] relative`}>
+                                        <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={oshot_after2}></Image>
+                                    </div>}  
                         />
                     </div>
                     
                 </div>
                 <div className={`flex w-full h-full justify-between md:justify-center ${hov2 ? 'hidden' : ''} ease-in-out duration-500`}>
-                    <img className={`md:mr-[3vh] w-[47%] md:w-[43%] object-cover`} src={oshot_before2.src}></img>
+                <div className={`mr-[1vh] md:mr-[3vh] w-[48%] md:w-[43%] object-cover relative`}>
+                        <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={oshot_before2}></Image>
+                    </div>
                     <div className={`h-full w-[0.2vh] bg-gold1`}></div>
-                    <img className={`md:ml-[3vh] w-[47%] md:w-[43%] object-cover`} src={oshot_after2.src}></img>
+                    <div className={`ml-[1vh] md:ml-[3vh] w-[48%] md:w-[43%] object-cover relative`}>
+                        <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={oshot_after2}></Image>
+                    </div>
                 </div>
             </div>
             <div onMouseEnter={() => setHov3(true)} onMouseLeave={() => {setHov3(false)}} className={`${vis3 ? '' : 'hidden'} flex flex-row justify-between w-full h-[40vh] my-[1vh]`}>
                 <div className={`flex w-full h-full justify-between ${hov3 ? '' : 'hidden'} ease-in-out duration-500`}>
                     <div className={`flex w-full md:w-[50%] mx-auto h-full justify-center`}>
-                        <ReactCompareSlider
-                            itemOne={<ReactCompareSliderImage src="sjfksldfj" srcSet={oshot_before3.src} alt="Image one"/>}
-                            itemTwo={<ReactCompareSliderImage src={oshot_after3.src} srcSet={oshot_after3.src} alt="Image two" />}
+                    <ReactCompareSlider
+                            itemOne={<div className={`flex w-[80vw] md:w-[20vw] h-[25vh] relative`}>
+                                        <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={oshot_before3}></Image>
+                                    </div>}
+                            itemTwo={<div className={`flex w-[80vw] md:w-[20vw] h-[25vh] relative`}>
+                                        <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={oshot_after3}></Image>
+                                    </div>}  
                         />
                     </div>
                     
                 </div>
                 <div className={`flex w-full h-full justify-between md:justify-center ${hov3 ? 'hidden' : ''} ease-in-out duration-500`}>
-                    <img className={`md:mr-[3vh] w-[47%] md:w-[43%] object-cover`} src={oshot_before3.src}></img>
+                <div className={`mr-[1vh] md:mr-[3vh] w-[48%] md:w-[43%] object-cover relative`}>
+                        <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={oshot_before3}></Image>
+                    </div>
                     <div className={`h-full w-[0.2vh] bg-gold1`}></div>
-                    <img className={`md:ml-[3vh] w-[47%] md:w-[43%] object-cover`} src={oshot_after3.src}></img>
+                    <div className={`ml-[1vh] md:ml-[3vh] w-[48%] md:w-[43%] object-cover relative`}>
+                        <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={oshot_after3}></Image>
+                    </div>
                 </div>
             </div>
             <div onMouseEnter={() => setHov4(true)} onMouseLeave={() => {setHov4(false)}} className={`${vis4 ? '' : 'hidden'} flex flex-row justify-between w-full h-[40vh] my-[1vh]`}>
                 <div className={`flex w-full h-full justify-between ${hov4 ? '' : 'hidden'} ease-in-out duration-500`}>
                     <div className={`flex w-full md:w-[50%] mx-auto h-full justify-center`}>
-                        <ReactCompareSlider
-                            itemOne={<ReactCompareSliderImage src="sjfksldfj" srcSet={oshot_before4.src} alt="Image one"/>}
-                            itemTwo={<ReactCompareSliderImage src={oshot_after4.src} srcSet={oshot_after4.src} alt="Image two" />}
+                    <ReactCompareSlider
+                            itemOne={<div className={`flex w-[80vw] md:w-[20vw] h-[25vh] relative`}>
+                                        <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={oshot_before4}></Image>
+                                    </div>}
+                            itemTwo={<div className={`flex w-[80vw] md:w-[20vw] h-[25vh] relative`}>
+                                        <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={oshot_after4}></Image>
+                                    </div>}  
                         />
                     </div>
                     
                 </div>
                 <div className={`flex w-full h-full justify-between md:justify-center ${hov4 ? 'hidden' : ''} ease-in-out duration-500`}>
-                    <img className={`md:mr-[3vh] w-[47%] md:w-[43%] object-cover`} src={oshot_before4.src}></img>
+                <div className={`mr-[1vh] md:mr-[3vh] w-[48%] md:w-[43%] object-cover relative`}>
+                        <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={oshot_before4}></Image>
+                    </div>
                     <div className={`h-full w-[0.2vh] bg-gold1`}></div>
-                    <img className={`md:ml-[3vh] w-[47%] md:w-[43%] object-cover`} src={oshot_after4.src}></img>
+                    <div className={`ml-[1vh] md:ml-[3vh] w-[48%] md:w-[43%] object-cover relative`}>
+                        <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={oshot_after4}></Image>
+                    </div>
                 </div>
             </div>
             <div onMouseEnter={() => setHov5(true)} onMouseLeave={() => {setHov5(false)}} className={`${vis5 ? '' : 'hidden'} flex flex-row justify-between w-full h-[40vh] my-[1vh]`}>
                 <div className={`flex w-full h-full justify-between ${hov5 ? '' : 'hidden'} ease-in-out duration-500`}>
                     <div className={`flex w-full md:w-[50%] mx-auto h-full justify-center`}>
-                        <ReactCompareSlider
-                            itemOne={<ReactCompareSliderImage src="sjfksldfj" srcSet={oshot_before5.src} alt="Image one"/>}
-                            itemTwo={<ReactCompareSliderImage src={oshot_after5.src} srcSet={oshot_after5.src} alt="Image two" />}
+                    <ReactCompareSlider
+                            itemOne={<div className={`flex w-[80vw] md:w-[20vw] h-[25vh] relative`}>
+                                        <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={oshot_before5}></Image>
+                                    </div>}
+                            itemTwo={<div className={`flex w-[80vw] md:w-[20vw] h-[25vh] relative`}>
+                                        <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={oshot_after5}></Image>
+                                    </div>}  
                         />
                     </div>
                     
                 </div>
                 <div className={`flex w-full h-full justify-between md:justify-center ${hov5 ? 'hidden' : ''} ease-in-out duration-500`}>
-                    <img className={`md:mr-[3vh] w-[47%] md:w-[43%] object-cover`} src={oshot_before5.src}></img>
+                <div className={`mr-[1vh] md:mr-[3vh] w-[48%] md:w-[43%] object-cover relative`}>
+                        <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={oshot_before5}></Image>
+                    </div>
                     <div className={`h-full w-[0.2vh] bg-gold1`}></div>
-                    <img className={`md:ml-[3vh] w-[47%] md:w-[43%] object-cover`} src={oshot_after5.src}></img>
+                    <div className={`ml-[1vh] md:ml-[3vh] w-[48%] md:w-[43%] object-cover relative`}>
+                        <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={oshot_after5}></Image>
+                    </div>
                 </div>
             </div>
             <div onMouseEnter={() => setHov6(true)} onMouseLeave={() => {setHov6(false)}} className={`${vis6 ? '' : 'hidden'} flex flex-row justify-between w-full h-[40vh] my-[1vh]`}>
                 <div className={`flex w-full h-full justify-between ${hov6 ? '' : 'hidden'} ease-in-out duration-500`}>
                     <div className={`flex w-full md:w-[50%] mx-auto h-full justify-center`}>
-                        <ReactCompareSlider
-                            itemOne={<ReactCompareSliderImage src="sjfksldfj" srcSet={oshot_before6.src} alt="Image one"/>}
-                            itemTwo={<ReactCompareSliderImage src={oshot_after6.src} srcSet={oshot_after6.src} alt="Image two" />}
+                    <ReactCompareSlider
+                            itemOne={<div className={`flex w-[80vw] md:w-[20vw] h-[25vh] relative`}>
+                                        <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={oshot_before6}></Image>
+                                    </div>}
+                            itemTwo={<div className={`flex w-[80vw] md:w-[20vw] h-[25vh] relative`}>
+                                        <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={oshot_after6}></Image>
+                                    </div>}  
                         />
                     </div>
                     
                 </div>
                 <div className={`flex w-full h-full justify-between md:justify-center ${hov6 ? 'hidden' : ''} ease-in-out duration-500`}>
-                    <img className={`md:mr-[3vh] w-[47%] md:w-[43%] object-cover`} src={oshot_before6.src}></img>
+                <div className={`mr-[1vh] md:mr-[3vh] w-[48%] md:w-[43%] object-cover relative`}>
+                        <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={oshot_before6}></Image>
+                    </div>
                     <div className={`h-full w-[0.2vh] bg-gold1`}></div>
-                    <img className={`md:ml-[3vh] w-[47%] md:w-[43%] object-cover`} src={oshot_after6.src}></img>
+                    <div className={`ml-[1vh] md:ml-[3vh] w-[48%] md:w-[43%] object-cover relative`}>
+                        <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={oshot_after6}></Image>
+                    </div>
                 </div>
             </div>
             <div onMouseEnter={() => setHov7(true)} onMouseLeave={() => {setHov7(false)}} className={`${vis7 ? '' : 'hidden'} flex flex-row justify-between w-full h-[40vh] my-[1vh]`}>
                 <div className={`flex w-full h-full justify-between ${hov7 ? '' : 'hidden'} ease-in-out duration-500`}>
                     <div className={`flex w-full md:w-[50%] mx-auto h-full justify-center`}>
-                        <ReactCompareSlider
-                            itemOne={<ReactCompareSliderImage src="sjfksldfj" srcSet={oshot_before7.src} alt="Image one"/>}
-                            itemTwo={<ReactCompareSliderImage src={oshot_after7.src} srcSet={oshot_after7.src} alt="Image two" />}
+                    <ReactCompareSlider
+                            itemOne={<div className={`flex w-[80vw] md:w-[20vw] h-[25vh] relative`}>
+                                        <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={oshot_before7}></Image>
+                                    </div>}
+                            itemTwo={<div className={`flex w-[80vw] md:w-[20vw] h-[25vh] relative`}>
+                                        <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={oshot_after7}></Image>
+                                    </div>}  
                         />
                     </div>
                     
                 </div>
                 <div className={`flex w-full h-full justify-between md:justify-center ${hov7 ? 'hidden' : ''} ease-in-out duration-500`}>
-                    <img className={`md:mr-[3vh] w-[47%] md:w-[43%] object-cover`} src={oshot_before7.src}></img>
+                <div className={`mr-[1vh] md:mr-[3vh] w-[48%] md:w-[43%] object-cover relative`}>
+                        <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={oshot_before7}></Image>
+                    </div>
                     <div className={`h-full w-[0.2vh] bg-gold1`}></div>
-                    <img className={`md:ml-[3vh] w-[47%] md:w-[43%] object-cover`} src={oshot_after7.src}></img>
+                    <div className={`ml-[1vh] md:ml-[3vh] w-[48%] md:w-[43%] object-cover relative`}>
+                        <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={oshot_after7}></Image>
+                    </div>
                 </div>
             </div>
 

@@ -34,13 +34,15 @@ const OshotDetails = () => {
                 /></p> */}
         </div>
         <div className={`hidden md:flex w-[45%] h-[100%] flex items-center`}>
-            <video src="/blood_cells.mp4" autoPlay loop muted className={` object-cover w-[100%] h-[100%]`}></video>
+        <video src="/blood_cells_desktop.mp4" autoPlay loop muted className={` object-cover w-[100%] h-[100%]`}></video>
             {/* <img className={`w-full h-full object-cover`} src={sherif}></img> */}
         </div>
 
         <div className={`flex flex-col md:hidden items-center`}>
             <p className={`flex text-gold1 text-[6vh] text-center font-header`}>How does it work?</p>
-            <video src="/blood_cells.mp4" autoPlay loop muted playsInline className={` object-cover h-[100%]`}></video>
+            <div className={`flex w-full h-[35vh]`}>
+                <video src="/blood_cells_mobile.mp4" autoPlay loop muted playsInline className={` object-cover h-full w-full`}></video>
+            </div>
                 <p className={`flex text-white text-[2.2vh] mt-[5vh] ml-[1vh] font-main`}>The O-Shot®, a groundbreaking treatment for sexual rejuvenation and enhancement, provides natural stimulation for revitalizing the genital area and activating the orgasmic response in men. This innovative solution addresses a wide range of factors contributing to low libido and sexual dysfunction, including aging, stress, and underlying medical conditions. With a significant number of men experiencing these issues, the O-Shot® has emerged as a popular and effective method to improve overall sexual wellness.</p>
                 <p className={`flex text-white text-[2.2vh] mt-[1.5vh] ml-[1vh] font-main`}>Sexual dysfunction can arise from various causes, including hormonal imbalances, neurological conditions, vascular issues affecting blood flow to the genitals, and psychological factors. The O-Shot® procedure harnesses the power of Platelet Rich Plasma (PRP), which is obtained by processing a small sample of the patient's blood. The PRP, rich in growth factors, is then injected into the genital area, stimulating natural regenerative processes.</p>
                 <p className={`flex text-white text-[2.2vh] mt-[1.5vh] ml-[1vh] font-main`}>Similar to the P-Shot®, the O-Shot® takes advantage of the body's innate healing capabilities to promote tissue growth and increase blood flow to the penis. By triggering the activation of stem cells and promoting the regeneration of healthier tissue, the O-Shot® aims to enhance sensation, improve function, and rejuvenate the overall sexual experience.</p>

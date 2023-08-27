@@ -4,7 +4,7 @@ import Image from 'next/image'
 const OconceptImage = () => {
   return (
     <div className={`flex w-full h-screen relative`}>
-        <Image className={`w-screen h-screen object-cover`} fill={true} object-fit="cover" src="/oshot3.jpeg" alt="Women"></Image>
+        <Image className={`w-screen h-screen object-cover`}  objectFit="cover" objectPosition="center" fill="true" src="/oshot3.jpeg" alt="Women"></Image>
         <div className={`absolute left-[1.5vw] top-[28%] md:w-[45%]`}>
         {/* <div className={`flex flex-col justify-center items-left h-screen w-[35%] ml-[3vh]`}> */}
                     {/* <h1 className={`text-gold1 text-[8vh] font-header mb-[3vh] mt-20 text-left`}>Vampire Breast Lift™ </h1> */}

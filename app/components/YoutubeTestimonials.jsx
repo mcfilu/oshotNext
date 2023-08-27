@@ -58,7 +58,7 @@ const YoutubeTestimonials = () => {
       
         <h1 className={`text-gold1 text-[5vh] font-header text-center`}>Patients Testimonials</h1>
         
-      <div className=" w-[95%] mx-auto my-auto ">
+      <div className=" w-[95%] mx-auto my-auto overflow-hidden">
         
         <Slider {...settings}>
           <div className={`md:min-h-[50vh] p-6 px-[2vw] my-[5vh]`}>

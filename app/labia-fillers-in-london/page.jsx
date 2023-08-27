@@ -1,4 +1,6 @@
 import React from 'react'
+import dynamic from 'next/dynamic'
+const OconceptInfo = dynamic(() => import ('../components/OconceptInfo'))
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import BookNow from '../components/BookNow'
@@ -8,11 +10,11 @@ import YoutubeTestimonials from '../components/YoutubeTestimonials'
 import WakilSummary from '../components/WakilSummary'
 import TrustPilotSlider from '../components/TrustPilotSlider'
 import FooterBook from '../components/FooterBook'
-import OconceptInfo from '../components/OconceptInfo'
 
+const LabiaDetails = dynamic(() => import('./LabiaDetails'))
 import LabiaBenefits from './LabiaBenefits'
 import LabiaCompare from './LabiaCompare'
-import LabiaDetails from './LabiaDetails'
+// import LabiaDetails from './LabiaDetails'
 import LabiaFaqs from './LabiaFaqs'
 import LabiaImage from './LabiaImage'
 import LabiaOpening from './LabiaOpening'

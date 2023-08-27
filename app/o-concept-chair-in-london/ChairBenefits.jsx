@@ -11,7 +11,7 @@ const OshotBenefits
     <div className={`flex w-full flex-row  md:min-h-[55vh]   `}>
         <div className={`hidden md:flex w-[45%]  flex  relative`}>
             {/* <video src={breastliftvideo} autoPlay loop muted className={` object-cover h-[100%] w-[100%]`}></video> */}
-            <Image src={oshot_image5} className={`w-full h-full object-cover`} object-fit="cover" fill={true} href=""></Image>
+            <Image src={oshot_image5} className={`w-full h-full object-cover`} objectFit="cover" objectPosition="center" fill="true" alt=""></Image>
         </div>
         <div className={`hidden md:flex flex flex-col w-[55%] p-[2vh]  items-center`}>
             <h1 className={`text-gold1 text-[5vh] text-center font-header`}>O-Concept Chair Benefits</h1>
@@ -32,7 +32,7 @@ const OshotBenefits
       <h1 className={`text-gold1 text-[5vh] text-center font-header`}>O-Concept Chair Benefits</h1>
       {/* <video src={boobs10} autoPlay loop muted className={` object-cover h-[100%] w-[100%]`}></video> */}
       <div className={`flex w-full h-[30vh] relative`}> 
-        <Image src={oshot_image5} className={`w-full h-full object-cover `} object-fit="cover" fill={true} alt=""></Image>
+        <Image src={oshot_image5} className={`w-full h-full object-cover `} objectFit="cover" objectPosition="center" fill="true" alt=""></Image>
       </div>
       <p className={`text-white font-poppins text-[2.1vh] text-left pl-[1vh] mt-[3vh] mb-[2vh] font-main`}>Experience the transformative power of the O-Concept Chair for her, a cutting-edge solution designed to optimize feminine wellness and enhance sexual health. This innovative treatment offers a multitude of benefits tailored to women's specific needs and concerns:</p>
             <ul className={`text-white text-[2.1vh] font-poppins pl-[1vh]`}>

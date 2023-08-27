@@ -30,7 +30,7 @@ const OshotServices = () => {
         <div  className={` flex flex-col  bg-gold1 items-center w-[100%] md:w-[29%]  shadow-[0px_0px_20px_1px_#ad9444]`}>
         <Link href="/gshot-injection-in-london">
             <div  className={`relative flex w-full h-[40vh] overflow-hidden bg-black`}>
-                <Image object-fit="cover" fill={true} href="" className={`flex w-full h-full  ease-in-out duration-500 object-cover hover:scale-125 transition cursor-pointer`} src={oshot_image2}></Image>
+                <Image objectFit="cover" objectPosition="center" fill="true" alt="" className={`flex w-full h-full  ease-in-out duration-500 object-cover hover:scale-125 transition cursor-pointer`} src={oshot_image2}></Image>
                 <div className={`absolute w-full top-[10vh] left-[2vw] `}>
                     <h1 className={`text-gold1 text-[5.5vh] text-left font-header`}>G-Shot</h1>
                     <h1 className={` text-gold1 text-[5.5vh] text-left font-header`}>PRP</h1>
@@ -50,7 +50,7 @@ const OshotServices = () => {
         <div className={` flex flex-col items-center bg-gold1 mt-[10vh] md:mt-[0px] w-[100%] md:w-[29%] shadow-[0px_0px_20px_1px_#ad9444] `}>
         <Link href="/o-concept-chair-in-london">
         <div className={`relative flex w-full h-[40vh] overflow-hidden bg-black `}>
-                <Image object-fit="cover" fill={true} href="" className={`flex w-full h-full  ease-in-out duration-500 object-cover hover:scale-125 transition cursor-pointer`} src={oshot_image6}></Image>
+                <Image objectFit="cover" objectPosition="center" fill="true" alt="" className={`flex w-full h-full  ease-in-out duration-500 object-cover hover:scale-125 transition cursor-pointer`} src={oshot_image6}></Image>
                 <div className={`absolute w-full top-[10vh] left-[2vw] `}>
                     <h1 className={`text-gold2 text-[5.5vh] text-left font-header`}>O-Concept Chair</h1>
                     <h1 className={` text-gold2 text-[5.5vh] text-left font-header`}>For Her</h1>
@@ -70,7 +70,7 @@ const OshotServices = () => {
         <div className={` flex flex-col  bg-gold1   w-[100%] md:w-[29%] mt-[10vh] md:mt-[0px] shadow-[0px_0px_20px_1px_#ad9444] `}>
         <Link href="/o-shot-and-g-shot-in-london">
         <div className={`relative flex w-full h-[40vh] overflow-hidden bg-black`}>
-                <Image object-fit="cover" fill={true} href="" className={` flex w-full h-full  ease-in-out duration-500 object-cover hover:scale-125 transition cursor-pointer`} src={oshot_image4}></Image>
+                <Image objectFit="cover" objectPosition="center" fill="true" alt="" className={` flex w-full h-full  ease-in-out duration-500 object-cover hover:scale-125 transition cursor-pointer`} src={oshot_image4}></Image>
                 <div className={`absolute w-full top-[10vh] left-[2vw] `}>
                     <h1 className={`text-gold2 text-[5.5vh] text-left font-header`}>O-Shot</h1>
                     <h1 className={` text-gold2 text-[5.5vh] text-left font-header`}>And G-Shot</h1>
@@ -99,7 +99,7 @@ const OshotServices = () => {
         <div className={` flex flex-col  bg-gold1 items-center w-[100%] md:w-[29%]  shadow-[0px_0px_20px_1px_#ad9444]`}>
         <Link href="/thermiva-feminine-wellness-in-london">
             <div  className={`relative flex w-full h-[40vh] overflow-hidden bg-black`}>
-                <Image object-fit="cover" fill={true} href="" className={`flex w-full h-full  ease-in-out duration-500 object-cover hover:scale-125 transition cursor-pointer`} src={thermiva}></Image>
+                <Image objectFit="cover" objectPosition="center" fill="true" alt="" className={`flex w-full h-full  ease-in-out duration-500 object-cover hover:scale-125 transition cursor-pointer`} src={thermiva}></Image>
                 <div className={`absolute w-full top-[10vh] left-[2vw] `}>
                     <h1 className={`text-gold1 text-[5.5vh] text-left font-header`}>ThermiVa</h1>
                     <h1 className={` text-gold1 text-[5.5vh] text-left font-header`}>Feminine</h1>
@@ -120,7 +120,7 @@ const OshotServices = () => {
         <div className={` flex flex-col items-center bg-gold1 mt-[10vh] md:mt-[0px] w-[100%] md:w-[29%] shadow-[0px_0px_20px_1px_#ad9444] `}>
         <Link href="/co2-re-intima-in-london">
         <div className={`relative flex w-full h-[40vh] overflow-hidden bg-black `}>
-                <Image object-fit="cover" fill={true} href="" className={`flex w-full h-full  ease-in-out duration-500 object-cover hover:scale-125 transition cursor-pointer`} src={shockwave1}></Image>
+                <Image objectFit="cover" objectPosition="center" fill="true" alt="" className={`flex w-full h-full  ease-in-out duration-500 object-cover hover:scale-125 transition cursor-pointer`} src={shockwave1}></Image>
                 <div className={`absolute w-full top-[10vh] left-[2vw] `}>
                     <h1 className={`text-gold2 text-[5.5vh] text-left font-header`}>CO2 RE</h1>
                     <h1 className={` text-gold2 text-[5.5vh] text-left font-header`}>Intima</h1>
@@ -140,7 +140,7 @@ const OshotServices = () => {
         <div  className={` flex flex-col  bg-gold1   w-[100%] md:w-[29%] mt-[10vh] md:mt-[0px] shadow-[0px_0px_20px_1px_#ad9444] `}>
         <Link href="/labia-fillers-in-london">
         <div className={`relative flex w-full h-[40vh] overflow-hidden bg-black`}>
-                <Image object-fit="cover" fill={true} href="" className={` flex w-full h-full  ease-in-out duration-500 object-cover hover:scale-125 transition cursor-pointer`} src={oshot1}></Image>
+                <Image objectFit="cover" objectPosition="center" fill="true" alt="" className={` flex w-full h-full  ease-in-out duration-500 object-cover hover:scale-125 transition cursor-pointer`} src={oshot1}></Image>
                 <div className={`absolute w-full top-[10vh] left-[2vw] `}>
                     <h1 className={`text-gold2 text-[5.5vh] text-left font-header`}>Labia</h1>
                     <h1 className={` text-gold2 text-[5.5vh] text-left font-header`}>Fillers</h1>

@@ -34,13 +34,15 @@ const OshotDetails = () => {
                 /></p> */}
         </div>
         <div className={`hidden md:flex w-[45%] h-[100%] flex items-center`}>
-            <video src="/blood_cells.mp4" autoPlay loop muted className={` object-cover w-[100%] h-[100%]`}></video>
+            <video src="/blood_cells_desktop.mp4" autoPlay loop muted className={` object-cover w-[100%] h-[100%]`}></video>
             {/* <img className={`w-full h-full object-cover`} src={sherif}></img> */}
         </div>
 
         <div className={`flex flex-col md:hidden items-center`}>
             <p className={`flex text-gold1 text-[6vh] text-center font-header`}>How does it work?</p>
-            <video src="/blood_cells.mp4" autoPlay loop muted playsInline className={` object-cover h-[100%]`}></video>
+            <div className={`flex w-full h-[35vh]`}>
+                <video src="/blood_cells_mobile.mp4" autoPlay loop muted playsInline className={` object-cover h-full w-full`}></video>
+            </div>
                 <p className={`flex text-white text-[2.2vh] mt-[5vh] ml-[1vh] font-main`}>Many women seek to enhance their sexual experiences and achieve heightened arousal and orgasms with their partners. Factors like childbirth, aging, and menopause can affect vaginal function, leading to a loss of sensation and reduced pleasure during sexual activities.</p>
                 <p className={`flex text-white text-[2.2vh] mt-[1.5vh] ml-[1vh] font-main`}>The O-Shot, also known as the Orgasm Shot, offers a solution using Platelet Rich Plasma (PRP) Therapy. This involves extracting high concentrations of growth factors and platelets from a small blood sample, similar to a routine blood test. </p>
                 <p className={`flex text-white text-[2.2vh] mt-[1.5vh] ml-[1vh] font-main`}>The extracted "liquid gold" plasma is obtained through a specialized centrifuge machine, known for its superior quality, ensuring highly concentrated Platelet Rich Plasma. This PRP is then reinjected into the vagina and clitoral areas, stimulating stem cell activity, revascularization, and tissue rejuvenation.</p>
