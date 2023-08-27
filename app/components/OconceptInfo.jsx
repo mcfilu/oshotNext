@@ -7,7 +7,7 @@ const OconceptInfo = () => {
   return (
     <div className={`flex w-full flex-row  md:min-h-[55vh]   `}>
         <div className={`hidden md:flex w-[45%]  flex  `}>
-          <video src="/o-concept-animation.webm" autoPlay loop muted className={` object-cover w-[100%] h-[100%]`}></video>
+          <video src="/o-concept-animation.webm" autoPlay loop muted className={` object-contain w-[100%] h-[100%]`}></video>
             {/* <img src={"/o-concept-animation.webm"} className={`w-full h-full object-cover`}></img> */}
         </div>
         <div className={`hidden md:flex flex flex-col w-[55%] p-[2vh]  items-center`}>
