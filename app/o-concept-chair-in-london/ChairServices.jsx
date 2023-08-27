@@ -34,8 +34,8 @@ const ChairServices = () => {
             <div  className={`relative flex w-full h-[40vh] overflow-hidden bg-black`}>
                 <Image objectFit="cover" objectPosition="center" fill="true" alt="" className={`flex w-full h-full  ease-in-out duration-500 object-cover hover:scale-125 transition cursor-pointer`} src={oshot_image2}></Image>
                 <div className={`absolute w-full top-[10vh] left-[2vw] `}>
-                    <h1 className={`text-gold1 text-[5.5vh] text-left font-header`}>G-Shot</h1>
-                    <h1 className={` text-gold1 text-[5.5vh] text-left font-header`}>PRP</h1>
+                    <h2 className={`text-gold1 text-[5.5vh] text-left font-header`}>G-Shot</h2>
+                    <h2 className={` text-gold1 text-[5.5vh] text-left font-header`}>PRP</h2>
                 </div>
             </div>
             
@@ -54,8 +54,8 @@ const ChairServices = () => {
             <div  className={`relative flex w-full h-[40vh] overflow-hidden bg-black`}>
             <Image objectFit="cover" objectPosition="center" fill="true" alt="" className={`flex w-full h-full  ease-in-out duration-500 object-cover hover:scale-125 transition cursor-pointer`} src={oshot_image1}></Image>
                 <div className={`absolute w-full top-[10vh] left-[2vw] `}>
-                    <h1 className={`text-gold1 text-[5.5vh] text-left font-header`}>O-Shot</h1>
-                    <h1 className={` text-gold1 text-[5.5vh] text-left font-header`}>Vagina PRP</h1>
+                    <h2 className={`text-gold1 text-[5.5vh] text-left font-header`}>O-Shot</h2>
+                    <h2 className={` text-gold1 text-[5.5vh] text-left font-header`}>Vagina PRP</h2>
 
                 </div>
             </div>
@@ -75,8 +75,8 @@ const ChairServices = () => {
         <div className={`relative flex w-full h-[40vh] overflow-hidden bg-black`}>
                 <Image objectFit="cover" objectPosition="center" fill="true" alt="" className={` flex w-full h-full  ease-in-out duration-500 object-cover hover:scale-125 transition cursor-pointer`} src={oshot_image4}></Image>
                 <div className={`absolute w-full top-[10vh] left-[2vw] `}>
-                    <h1 className={`text-gold2 text-[5.5vh] text-left font-header`}>O-Shot</h1>
-                    <h1 className={` text-gold2 text-[5.5vh] text-left font-header`}>And G-Shot</h1>
+                    <h2 className={`text-gold2 text-[5.5vh] text-left font-header`}>O-Shot</h2>
+                    <h2 className={` text-gold2 text-[5.5vh] text-left font-header`}>And G-Shot</h2>
                 </div>
             </div>
             <div className={` flex flex-col w-full  pt-[2vh] pb-[2.5vh] px-[1vh] md:px-[2vh]`}>
@@ -104,9 +104,9 @@ const ChairServices = () => {
             <div  className={`relative flex w-full h-[40vh] overflow-hidden bg-black`}>
                 <Image objectFit="cover" objectPosition="center" fill="true" alt="" className={`flex w-full h-full  ease-in-out duration-500 object-cover hover:scale-125 transition cursor-pointer`} src={thermiva}></Image>
                 <div className={`absolute w-full top-[10vh] left-[2vw] `}>
-                    <h1 className={`text-gold1 text-[5.5vh] text-left font-header`}>ThermiVa</h1>
-                    <h1 className={` text-gold1 text-[5.5vh] text-left font-header`}>Feminine</h1>
-                    <h1 className={` text-gold1 text-[5.5vh] text-left font-header`}>Wellness</h1>
+                    <h2 className={`text-gold1 text-[5.5vh] text-left font-header`}>ThermiVa</h2>
+                    <h2 className={` text-gold1 text-[5.5vh] text-left font-header`}>Feminine</h2>
+                    <h2 className={` text-gold1 text-[5.5vh] text-left font-header`}>Wellness</h2>
                 </div>
             </div>
             
@@ -125,8 +125,8 @@ const ChairServices = () => {
         <div className={`relative flex w-full h-[40vh] overflow-hidden bg-black `}>
                 <Image objectFit="cover" objectPosition="center" fill="true" alt="" className={`flex w-full h-full  ease-in-out duration-500 object-cover hover:scale-125 transition cursor-pointer`} src={shockwave1}></Image>
                 <div className={`absolute w-full top-[10vh] left-[2vw] `}>
-                    <h1 className={`text-gold2 text-[5.5vh] text-left font-header`}>CO2 RE</h1>
-                    <h1 className={` text-gold2 text-[5.5vh] text-left font-header`}>Intima</h1>
+                    <h2 className={`text-gold2 text-[5.5vh] text-left font-header`}>CO2 RE</h2>
+                    <h2 className={` text-gold2 text-[5.5vh] text-left font-header`}>Intima</h2>
                 </div>
             </div>
             <div className={`relative items-center flex flex-col w-full  py-[1vh] px-[2vh]`}>
@@ -145,8 +145,8 @@ const ChairServices = () => {
         <div className={`relative flex w-full h-[40vh] overflow-hidden bg-black`}>
                 <Image objectFit="cover" objectPosition="center" fill="true" alt="" className={` flex w-full h-full  ease-in-out duration-500 object-cover hover:scale-125 transition cursor-pointer`} src={oshot1}></Image>
                 <div className={`absolute w-full top-[10vh] left-[2vw] `}>
-                    <h1 className={`text-gold2 text-[5.5vh] text-left font-header`}>Labia</h1>
-                    <h1 className={` text-gold2 text-[5.5vh] text-left font-header`}>Fillers</h1>
+                    <h2 className={`text-gold2 text-[5.5vh] text-left font-header`}>Labia</h2>
+                    <h2 className={` text-gold2 text-[5.5vh] text-left font-header`}>Fillers</h2>
                 </div>
             </div>
             <div className={` flex flex-col w-full  pt-[2vh] pb-[2.5vh] px-[1vh] md:px-[2vh]`}>

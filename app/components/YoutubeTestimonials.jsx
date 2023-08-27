@@ -56,7 +56,7 @@ const YoutubeTestimonials = () => {
   
     <div className={`flex flex-col p-[2vh]  w-full `}>
       
-        <h1 className={`text-gold1 text-[5vh] font-header text-center`}>Patients Testimonials</h1>
+        <h2 className={`text-gold1 text-[5vh] font-header text-center`}>Patients Testimonials</h2>
         
       <div className=" w-[95%] mx-auto my-auto overflow-hidden">
         
@@ -74,7 +74,7 @@ const YoutubeTestimonials = () => {
               <div className={`flex flex-col items-center w-[100%] h-[48%] mt-[2vh]`}>
                 <i className={`fa-solid fa-quote-right mr-[0.9vw] text-gold1 text-[2vh] md:text-[1.3vw]`}></i>
                 <p className={`text-white text-center text-[1.9vh] font-main`}>This treatment definitely helps, it helped me so much. Thank you Dr. Wakil.</p>
-                <h1 className={`text-gold1 text-[3vh] text-center mt-[2vh] font-header`}>ASHLEY</h1>
+                <h2 className={`text-gold1 text-[3vh] text-center mt-[2vh] font-header`}>ASHLEY</h2>
                 <h3 className={`text-white text-[1.9vh] text-center font-main`}>68 Years Old, UK</h3>
               </div>
             </div>
@@ -95,7 +95,7 @@ const YoutubeTestimonials = () => {
               <div className={`flex flex-col items-center w-[100%] h-[48%] mt-[2vh]`}>
                 <i className={`fa-solid fa-quote-right mr-[0.9vw] text-gold1 text-[2vh] md:text-[1.3vw]`}></i>
                 <p className={`text-white text-center text-[1.9vh] font-main`}>I couldn't be happier with the results. Now I feel like a real women. Fantastic!</p>
-                <h1 className={`text-gold1 text-[3vh] text-center mt-[2vh] font-header`}>MARYLIN</h1>
+                <h2 className={`text-gold1 text-[3vh] text-center mt-[2vh] font-header`}>MARYLIN</h2>
                 <h3 className={`text-white text-[1.9vh] text-center font-main`}>43 Years Old, UK</h3>
               </div>
             </div>
@@ -114,7 +114,7 @@ const YoutubeTestimonials = () => {
               <div className={`flex flex-col items-center w-[100%] h-[48%] mt-[2vh]`}>
                 <i className={`fa-solid fa-quote-right mr-[0.9vw] text-gold1 text-[2vh] md:text-[1.3vw]`}></i>
                 <p className={`text-white text-center text-[1.9vh] font-main`}>I am very pleasently suprised with the results. </p>
-                <h1 className={`text-gold1 text-[3vh] text-center mt-[2vh] font-header`}>FABIA</h1>
+                <h2 className={`text-gold1 text-[3vh] text-center mt-[2vh] font-header`}>FABIA</h2>
                 <h3 className={`text-white text-[1.9vh] text-center font-main`}>64 Years Old, UK</h3>
               </div>
             </div>
@@ -133,7 +133,7 @@ const YoutubeTestimonials = () => {
               <div className={`flex flex-col items-center w-[100%] h-[48%] mt-[2vh]`}>
                 <i className={`fa-solid fa-quote-right mr-[0.9vw] text-gold1 text-[2vh] md:text-[1.3vw]`}></i>
                 <p className={`text-white text-center text-[1.9vh] font-main`}>O-Shot is realy the only thing that worked for me!</p>
-                <h1 className={`text-gold1 text-[3vh] text-center mt-[2vh] font-header`}>SAMANTHA</h1>
+                <h2 className={`text-gold1 text-[3vh] text-center mt-[2vh] font-header`}>SAMANTHA</h2>
                 <h3 className={`text-white text-[1.9vh] text-center font-main`}>40 Years Old, UK</h3>
               </div>
             </div>

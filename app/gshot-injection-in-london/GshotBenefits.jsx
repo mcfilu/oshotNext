@@ -14,7 +14,7 @@ const OshotBenefits
             <Image src={oshot_image5} className={`w-full h-full object-cover`} objectFit="cover" objectPosition="center" fill="true" alt=""></Image>
         </div>
         <div className={`hidden md:flex flex flex-col w-[55%] p-[2vh]  items-center`}>
-            <h1 className={`text-gold1 text-[5vh] text-center font-header`}>G-Shot Benefits</h1>
+            <h2 className={`text-gold1 text-[5vh] text-center font-header`}>G-Shot Benefits</h2>
             <p className={`text-white font-poppins text-[2.1vh] text-justify mt-[3vh] mb-[2vh] font-main`}>
 The G-Shot, also known as G-Spot Amplification, offers a remarkable solution for individuals seeking enhanced sexual pleasure and satisfaction. This innovative treatment targets the G-spot, a highly sensitive area inside the vagina, to unlock a range of benefits:</p>
             <ul className={`text-white text-[2.1vh] font-poppins w-full items-left`}>
@@ -31,7 +31,7 @@ The G-Shot, also known as G-Spot Amplification, offers a remarkable solution for
         
 
       <div className={`md:hidden flex flex-col items-center`}>
-      <h1 className={`text-gold1 text-[5vh] text-center font-header`}>G-Shot Benefits</h1>
+      <h2 className={`text-gold1 text-[5vh] text-center font-header`}>G-Shot Benefits</h2>
       {/* <video src={boobs10} autoPlay loop muted className={` object-cover h-[100%] w-[100%]`}></video> */}
       <div className={`flex w-full h-[30vh] relative`}> 
         <Image src={oshot_image5} className={`w-full h-full object-cover `} objectFit="cover" objectPosition="center" fill="true" alt=""></Image>

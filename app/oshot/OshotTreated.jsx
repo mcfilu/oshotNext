@@ -23,9 +23,9 @@ const OshotTreated = () => {
                 <Image src={orgasm} className={`w-full h-full object-contain`} objectFit="contain" objectPosition="center" fill="true" alt=""></Image>
             </div>
             
-            <h1 className={`text-gold1 text-[4vh] text-center font-main md:mt-[2vh]`}>Lack of Orgasms</h1>
-            {/* <h1 className={`text-gold1 text-[4vh] text-left font-main `}>Increase</h1> */}
-            {/* <h1 className={` text-gold2 text-[5.5vh] text-left`}>Size</h1> */}
+            <h2 className={`text-gold1 text-[4vh] text-center font-main md:mt-[2vh]`}>Lack of Orgasms</h2>
+            {/* <h2 className={`text-gold1 text-[4vh] text-left font-main `}>Increase</h2> */}
+            {/* <h2 className={` text-gold2 text-[5.5vh] text-left`}>Size</h2> */}
         </div>
         
 
@@ -39,8 +39,8 @@ const OshotTreated = () => {
                 <Image src={ejaculation} className={`w-full h-full object-contain`} objectFit="contain" objectPosition="center" fill="true" alt=""></Image>
             </div>
             
-            <h1 className={`text-gold1 text-[4vh] text-center font-main md:mt-[2vh]`}>Vaginal Dryness</h1>
-            {/* <h1 className={` text-white text-[5.5vh] text-left`}>Texture</h1> */}
+            <h2 className={`text-gold1 text-[4vh] text-center font-main md:mt-[2vh]`}>Vaginal Dryness</h2>
+            {/* <h2 className={` text-white text-[5.5vh] text-left`}>Texture</h2> */}
         </div>
         
 
@@ -55,8 +55,8 @@ const OshotTreated = () => {
                 <Image src={libido} className={`w-full h-full object-contain`} objectFit="contain" objectPosition="center" fill="true" alt=""></Image>
             </div>
             
-            <h1 className={`text-gold1 text-[4vh] text-center font-main md:mt-[2vh]`}>Low Libido</h1>
-            {/* <h1 className={` text-gold2 text-[5.5vh] text-left`}>Rippling</h1> */}
+            <h2 className={`text-gold1 text-[4vh] text-center font-main md:mt-[2vh]`}>Low Libido</h2>
+            {/* <h2 className={` text-gold2 text-[5.5vh] text-left`}>Rippling</h2> */}
         </div>
         
 
