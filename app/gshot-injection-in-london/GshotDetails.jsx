@@ -34,7 +34,7 @@ const OshotDetails = () => {
                 /></p> */}
         </div>
         <div className={`hidden md:flex w-[45%] h-[100%] flex items-center`}>
-        <video src="/blood_cells_desktop.mp4" autoPlay loop muted className={` object-cover w-[100%] h-[100%]`}></video>
+        <video src="/blood_cells_desktop.mp4" autoPlay  loop muted className={` object-cover w-[100%] h-[100%]`}></video>
             {/* <img className={`w-full h-full object-cover`} src={sherif}></img> */}
         </div>
 
