@@ -32,7 +32,7 @@ export default function RootLayout({ children }) {
           <GoogleAnalytics/>
         </Suspense>
         <Suspense>
-          <GoogleTagManager id="GTM-KFZWGS2" />
+          <GoogleTagManager id="GTM-KQPWKTX5" />
         </Suspense>
         {children}
         <Script strategy="afterInteractive" data-bot-id="a243d8ad-44a1-4441-aecd-b9b2a08ff886" src="https://launcher.enquirybot.com/index.js"></Script>
