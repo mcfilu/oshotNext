@@ -71,6 +71,8 @@ const OshotCompare
          
     
     }
+    const [banner, setBanner] = useState(false);
+
   return (
     <div className={` py-[2vh] w-full `}>
         <div className={`w-full flex flex-col justify-center items-center `}>
@@ -79,7 +81,7 @@ const OshotCompare
                 <h2 className={`text-[3.5vh] text-white font-main`}>Before</h2>
                 <h2 className={`text-[3.5vh] text-white font-main`}>After</h2>
             </div>
-            <div className='flex w-full h-full bg-gold2 items-center justify-center'>
+            <div className='flex flex-col w-full h-full bg-gold2 items-center justify-center'>
                 <p className='text-black text-[2.5vh] my-[1vh] text-center'>Sensitive Content</p>
                 <p className='text-black text-[2.5vh] my-[1vh] text-center'>These photos contain nudity. You must be at least 18 years old to continue.</p>
                 <p className='text-black text-[2.5vh] my-[1vh] text-center'>Are you over 18 years of age?</p>
@@ -88,6 +90,7 @@ const OshotCompare
                     <button className='py-[1vh] px-[2vh] border-black text-black'>YES</button>
                 </div>
             </div>
+            <div className={`${banner ? '' : 'hidden'}`}>
             <div onMouseEnter={() => setHov1(true)} onMouseLeave={() => {setHov1(false)}} className={`flex flex-row justify-between w-full h-[40vh] my-[1vh]`}>
                 <div className={`flex w-full h-full justify-between ${hov1 ? '' : 'hidden'} ease-in-out duration-500`}>
                     <div className={`flex w-full md:w-[50%] mx-auto h-full justify-center`}>
@@ -256,7 +259,7 @@ const OshotCompare
                     </div>
                 </div>
             </div>
-
+            </div>
             
             <button onClick={() => handleImages()} className={`flex mx-auto px-[1vh] py-[0.5vh] bg-black border-gold1 border-2 text-gold1 text-[2.5vh]  ${buttonVis ? "":"hidden"} mt-[1vh] font-main`}>Load More</button>
         </div>
