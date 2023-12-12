@@ -44,7 +44,7 @@ const OshotOpening = () => {
             {/* <Image className={`w-full h-full object-cover `} src={sherif_new} objectFit="cover" objectPosition="center" fill="true" alt=""></Image> */}
             
             <i className={`fa-solid fa-quote-right mr-[0.9vw] text-gold1 text-center text-[4vh] mt-[1vh]`}></i>
-            <p className={`flex text-white text-[2.2vh] text-left ml-[1vh] text-gold1 `}>The O-Shot® is a vital element of the transformative therapy known as The O Concept™. This innovative approach encompasses state-of-the-art technology, pioneering treatments, and natural supplements, all dedicated to enhancing sexual well-being and satisfaction.</p>
+            <p className={`flex text-white text-[2.2vh] text-left ml-[1vh] text-gold1 `}>The O-Shot® - also known as the Orgasm Shot - is a vital element of the transformative therapy known as The O Concept™. This innovative approach encompasses state-of-the-art technology, pioneering treatments, and natural supplements, all dedicated to enhancing sexual well-being and satisfaction.</p>
             <p className={`flex text-white text-[2.2vh] text-left ml-[1vh] mt-[2vh] text-gold1 `}>By harnessing the power of Platelet Rich Plasma (PRP), the O-Shot® procedure taps into the body's innate healing and rejuvenating capabilities. Through targeted injections of PRP, abundant in growth factors, the O-Shot® triggers a regenerative process that stimulates the body's natural ability to heal and renew itself, particularly in the intimate areas.</p>
             <i className={`fa-solid fa-quote-right mr-[0.9vw] text-center text-gold1 text-[4vh] `}></i>
             
