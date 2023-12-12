@@ -79,6 +79,15 @@ const OshotCompare
                 <h2 className={`text-[3.5vh] text-white font-main`}>Before</h2>
                 <h2 className={`text-[3.5vh] text-white font-main`}>After</h2>
             </div>
+            <div className='flex w-full h-full bg-gold2 items-center justify-center'>
+                <p className='text-black text-[2.5vh] my-[1vh] text-center'>Sensitive Content</p>
+                <p className='text-black text-[2.5vh] my-[1vh] text-center'>These photos contain nudity. You must be at least 18 years old to continue.</p>
+                <p className='text-black text-[2.5vh] my-[1vh] text-center'>Are you over 18 years of age?</p>
+                <div className='flex flex-row '>
+                    <button className='py-[1vh] px-[2vh] border-black text-black'>NO</button>
+                    <button className='py-[1vh] px-[2vh] border-black text-black'>YES</button>
+                </div>
+            </div>
             <div onMouseEnter={() => setHov1(true)} onMouseLeave={() => {setHov1(false)}} className={`flex flex-row justify-between w-full h-[40vh] my-[1vh]`}>
                 <div className={`flex w-full h-full justify-between ${hov1 ? '' : 'hidden'} ease-in-out duration-500`}>
                     <div className={`flex w-full md:w-[50%] mx-auto h-full justify-center`}>
