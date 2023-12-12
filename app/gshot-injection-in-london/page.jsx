@@ -23,8 +23,8 @@ import GshotTreated from './GshotTreated'
 import GshotVideo from './GshotVideo'
 
 export const metadata = {
-    title: 'G Shot Injection in London | O-Shot',
-    description : "Get the best G Shot Injection in London at Dr. Sherif Wakil's clinic. Experience top-notch O Concept Treatment. Call +44 (0)20 3006 8459 now.",
+    title: 'G Shot® | GShot® Injection in London',
+    description : "Get the best G Shot® injection in London at Dr. Sherif Wakil's clinic. Experience top-notch Gshot® with the O Concept Treatment. Call +44 (0)20 3006 8459 now",
 }
 
 const Gshot = () => {
