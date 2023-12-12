@@ -52,7 +52,7 @@ const OshotVideo = () => {
           <LiteYouTubeEmbed
                   className={`w-full h-full`}
                   wrapperClass=""
-                  id="WsHXew0UZUQ"
+                  id="4LNFCIp4bCY"
                   title="o-concept-video"
                 />
           <p className={`text-white text-left text-[2.2vh] mt-[3vh] pl-[1vh] font-main`}>We warmly invite you to watch a detailed video where Dr. Sherif Wakil, a highly respected expert in the field, carefully explains every part of the treatment process. In this video, Dr. Wakil breaks down the procedure into simple steps, using easy-to-understand language that makes the complex treatment procedure more accessible to everyone. This is an excellent opportunity to learn more about the procedure from an acknowledged authority in the field.</p>

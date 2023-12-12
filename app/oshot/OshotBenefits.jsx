@@ -30,18 +30,17 @@ sex drive.</li>
         
 
       <div className={`md:hidden flex flex-col items-center`}>
-      <h2 className={`text-gold1 text-[5vh] text-center font-header`}>O-Shot Benefits</h2>
+      <h2 className={`text-gold1 text-[5vh] text-center font-header`}>UK O-Shot® Benefits</h2>
       {/* <video src={boobs10} autoPlay loop muted className={` object-cover h-[100%] w-[100%]`}></video> */}
       <div className={`flex w-full h-[30vh] relative`}> 
         <Image src={oshot_image5} className={`w-full h-full object-cover `} objectFit="cover" objectPosition="center" fill="true" alt=""></Image>
       </div>
       
-      <p className={`text-white font-poppins text-[2.1vh] text-left pl-[1vh] mt-[3vh] mb-[2vh] font-main`}>The O-Shot offers an exceptional solution for individuals seeking long-term improvement in sexual wellness by addressing various concerns specific to women's sexual health. This innovative treatment provides a wide range of benefits, including:
-
-</p>
+      <p className={`text-white font-poppins text-[2.1vh] text-left pl-[1vh] mt-[3vh] mb-[2vh] font-main`}>Our O-Shot® treatment offers an exceptional solution for individuals seeking long-term improvement in sexual wellness by addressing various concerns specific to women's sexual health. This innovative treatment provides a wide range of benefits, including: </p>
             <ul className={`text-white text-[2.1vh] font-poppins pl-[1vh]`}>
                 <li className={`flex items-center mt-[1vh] font-main`}><i  className={`text-gold1 mr-4 fa-solid fa-circle text-[1.6vh] `}></i>Heightened sensitivity and increased pleasure during intimate moments.</li>
-                <li className={`flex items-center mt-[1vh] font-main`}><i  className={`text-gold1 mr-4 fa-solid fa-circle text-[1.6vh] `}></i>Improved Sex Drive and Libido, rediscover passion and desire with a boosted sex drive.</li>
+                <li className={`flex items-center mt-[1vh] font-main`}><i  className={`text-gold1 mr-4 fa-solid fa-circle text-[1.6vh] `}></i>Improved sex drive and libido, rediscover passion and desire with a boosted
+sex drive.</li>
                 <li className={`flex items-center mt-[1vh] font-main`}><i  className={`text-gold1 mr-4 fa-solid fa-circle text-[1.6vh] `}></i>Promote natural lubrication and rejuvenate vaginal tissues for improved comfort.</li>
                 <li className={`flex items-center mt-[1vh] font-main`}><i  className={`text-gold1 mr-4 fa-solid fa-circle text-[1.6vh] `}></i>Enhance the intensity and frequency of orgasms for greater satisfaction.</li>
                 {/* <li className={`flex items-center mt-[1vh] font-main`}><i  className={`text-gold1 mr-4 fa-solid fa-circle text-[1.6vh] `}></i>Fill implant ‘rippling’</li> */}

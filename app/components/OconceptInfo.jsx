@@ -20,7 +20,7 @@ const OconceptInfo = () => {
         
 
       <div className={`md:hidden flex flex-col items-center`}>
-      <h2 className={`text-gold1 text-[5vh] text-center font-header`}>O-Concept for Her</h2>
+      <h2 className={`text-gold1 text-[5vh] text-center font-header`}>O-Concept™ for Her</h2>
       {/* <video src={boobs10} autoPlay loop muted className={` object-cover h-[100%] w-[100%]`}></video> */}
       <div className={`flex w-full h-[35vh]`}>
                 <video src="/o-concept-animation.webm" autoPlay loop muted playsInline className={` object-cover h-full w-full`}></video>
