@@ -70,9 +70,9 @@ const Gshot = () => {
                   <GshotTreated/>
               </div>
               
-              <div className={`flex  w-full  items-center  justify-center mt-[7vh]`}>
+              {/* <div className={`flex  w-full  items-center  justify-center mt-[7vh]`}>
                   <GshotVideo/>
-              </div>
+              </div> */}
               
               <div className={`flex  w-full items-center mt-[7vh]`}>
                   <GshotSummary/>

@@ -1,5 +1,5 @@
 'use client'
-
+import Link from "next/link";
 import React, { useState } from "react";
 // import { Transition } from "@headlessui/react";
 // import { PlusIcon, MinusIcon } from "@heroicons/react/solid";
@@ -26,14 +26,16 @@ const OshotFaqs = () => {
                 <div className={`flex flex-col md:ml-[5%]`} onClick={() => {setSecond(!openSecond)}}>
                     <div className={`flex flex-row justify-left`}>
                         <i className={`fa-regular ${openSecond ? 'fa-square-minus' : 'fa-square-plus'} mr-4 text-gold1 text-[3vh] flex items-center`}></i>
-                        <h2 className={`${openSecond ? 'text-white' : 'text-white'} font-main text-[2.8vh]`}>Am i suitable for this treatment?</h2>
+                        <h2 className={`${openSecond ? 'text-white' : 'text-white'} font-main text-[2.8vh]`}>Am I suitable for the G-Shot® treatment?</h2>
                     </div>
                     <div className={`flex flex-col ${openSecond ? '' : 'hidden'} md:w-[50vw] mt-[2vh] mb-[1vh] ml-[5%]`}>
                         <p className={`text-white text-[2.1vh] text-justify font-main mt-[2vh]`}>
-                        Your suitability for G-spot amplification will be determined in a consultation with our doctor. Detailed discussions about your sexual activity and function plus medical history will be required. During your consultation, our doctor will be able to recommend the safest and most effective treatment options available with The O Concept™ to rebuild your sexual well-being.
+                        Your suitability for G-spot amplification with our GShot® treatment will be determined in a <Link href="/contact-us"><a className="text-gold2 underline">full consultation</a></Link> with our doctor. Detailed discussions about your sexual activity and function plus medical
+history will be required. During your consultation, our doctor will be able to recommend the safest
+and most effective treatment options available with <Link href="/o-concept-treatment-in-london"><a className="text-gold2 underline">The O Concept™</a></Link> to rebuild your sexual wellbeing.
                         </p>
                         <p className={`text-white text-[2.1vh] text-justify font-main mt-[2vh]`}>
-                        Ideal candidates are sexually active women with normal sexual function. If you have other vaginal concerns such as vaginal dryness, dyspareunia (painful intercourse), difficulty with arousal or orgasm, then diagnosis and treatment options for these will need to be discussed before we can consider a G-shot procedure.
+                        Ideal candidates are sexually active women with normal sexual function. If you have other vaginal concerns such as vaginal dryness, dyspareunia (painful intercourse), difficulty with arousal or orgasm, then diagnosis and treatment options for these will need to be discussed before we can consider a GShot® procedure.
                         </p>
                         <p className={`text-white text-[2.1vh] text-justify font-main mt-[2vh]`}>
                         You will be required to come for treatment at a point in your menstrual cycle when you are not bleeding.
@@ -66,7 +68,7 @@ const OshotFaqs = () => {
                         The procedure is performed in a similar way to the positioning you would take when having a PAP smear test. You will be asked to self-examine to locate your G-spot and the doctor will also perform a pelvic examination to locate the exact target placement for the dermal filler gel, based on your directions. A special speculum will then be placed into the vagina which exposes the agreed location of your G-spot. A local anaesthetic injection, to numb the area, can then be delivered before the injection of the hyaluronic acid product.
                         </p>
                         <p className={`text-white text-[2.1vh] text-justify font-main mt-[2vh]`}>
-                        The whole G-Shot procedure takes approximately 15 – 20 minutes.
+                        The whole G-Shot® procedure takes approximately 15 – 20 minutes.
                         </p>
                     </div>
                 </div>
@@ -93,7 +95,7 @@ const OshotFaqs = () => {
                     </div>
                     <div className={`flex ${openSixth ? '' : 'hidden'} flex-col md:w-[50vw] mt-[2vh] mb-[1vh] ml-[5%]`}>
                         <p className={`text-white text-[2.1vh] text-justify font-main`}>
-                        In a pilot study performed in the USA on 20 women, 87% reported enhanced sexual gratification and arousal after having G-spot amplification.
+                        In a pilot study performed in the USA on 20 women, 87% reported enhanced sexual gratification and arousal after having G-spot amplification with the G-Shot® treatment.
                         </p>
                         {/* <ul className={`text-white text-[2.1vh] font-main my-[1vh] mb-6`}>
                             <li className={`flex items-center`}><i  className={`mr-4 fa-solid fa-circle text-[12px] text-gold1`}></i>Increased blood flow and circulation</li>
