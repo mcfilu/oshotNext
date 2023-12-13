@@ -30,7 +30,7 @@ const OshotFaqs = () => {
                     </div>
                     <div className={`flex flex-col ${openSecond ? '' : 'hidden'} md:w-[50vw] mt-[2vh] mb-[1vh] ml-[5%]`}>
                         <p className={`text-white text-[2.1vh] text-justify font-main mt-[2vh]`}>
-                        Your suitability for G-spot amplification with our GShot® treatment will be determined in a <Link href="/contact-us"><a className="text-gold2 underline">full consultation</a></Link> with our doctor. Detailed discussions about your sexual activity and function plus medical
+                        Your suitability for G-spot amplification with our GShot® treatment will be determined in a <Link href="/contact-us" className="text-gold2 underline inline">full consultation</Link> with our doctor. Detailed discussions about your sexual activity and function plus medical
 history will be required. During your consultation, our doctor will be able to recommend the safest
 and most effective treatment options available with <Link href="/o-concept-treatment-in-london"><a className="text-gold2 underline">The O Concept™</a></Link> to rebuild your sexual wellbeing.
                         </p>
